@@ -1,15 +1,3 @@
-// @use '@carbon/react';
 @use './components/TutorialHeader/tutorial-header';
-// body {
-//   margin: 0;
-//   font-family: -apple-system, BlinkMacSystemFont, 'ibm-plex-sans', 'Segoe UI', 'Roboto', 'Oxygen',
-//     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-//     sans-serif;
-//   -webkit-font-smoothing: antialiased;
-//   -moz-osx-font-smoothing: grayscale;
-// }
-
-// code {
-//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-//     monospace;
-// }
+@use './content/LandingPage/landing-page';
+@use './content/RepoPage/repo-page';
