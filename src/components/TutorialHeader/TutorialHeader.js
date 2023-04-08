@@ -1,9 +1,8 @@
 import React from 'react';
 import { Switcher, Notification, UserAvatar } from '@carbon/react/icons';
-
+import { Link } from 'react-router-dom';
 import {
   Header,
-  // Link,
   HeaderContainer,
   HeaderName,
   HeaderNavigation,
@@ -21,17 +20,18 @@ import {
 const TutorialHeader = () => (
   <HeaderContainer
     render={({ isSideNavExpanded, onClickSideNavExpand }) => (
-      <Header aria-label="Materialtech lab">
+      <Header aria-label="IBM Carbon Tutorial">
         <SkipToContent />
         <HeaderMenuButton
           aria-label="Open menu"
           onClick={onClickSideNavExpand}
           isActive={isSideNavExpanded}
         />
-        <HeaderName href="/" prefix="Materialtech">lab</HeaderName>
-        {/* <HeaderMenuItem href="/" prefix="Materialtech">Material Tech lab</HeaderMenuItem> */}
-        <HeaderNavigation aria-label="Materialtech lab">
-        <HeaderMenuItem href="/repos">Repositories</HeaderMenuItem>
+        <HeaderName element={Link} to="/" prefix="IBM">
+          Carbon Tutorial
+        </HeaderName>
+        <HeaderNavigation aria-label="IBM Carbon Tutorial">
+        <HeaderMenuItem element={Link} to="repos">Repositories</HeaderMenuItem>        
         </HeaderNavigation>
         <SideNav
           aria-label="Side navigation"
@@ -40,7 +40,7 @@ const TutorialHeader = () => (
         >
           <SideNavItems>
             <HeaderSideNavItems>
-              <HeaderMenuItem href="/repos">Repositories</HeaderMenuItem>
+              <HeaderMenuItem href="/#/repos">Repositories</HeaderMenuItem>
             </HeaderSideNavItems>
           </SideNavItems>
         </SideNav>
