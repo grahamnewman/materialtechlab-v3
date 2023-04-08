@@ -1,8 +1,9 @@
 import React from 'react';
 import { Switcher, Notification, UserAvatar } from '@carbon/react/icons';
+
 import {
   Header,
-  Link,
+  // Link,
   HeaderContainer,
   HeaderName,
   HeaderNavigation,
@@ -27,9 +28,10 @@ const TutorialHeader = () => (
           onClick={onClickSideNavExpand}
           isActive={isSideNavExpanded}
         />
-        <HeaderName element={Link} to="/" prefix="Materialtech">lab</HeaderName>
+        <HeaderName href="/" prefix="Materialtech">lab</HeaderName>
+        {/* <HeaderMenuItem href="/" prefix="Materialtech">Material Tech lab</HeaderMenuItem> */}
         <HeaderNavigation aria-label="Materialtech lab">
-        <HeaderMenuItem element={Link} to="/repos">Repositories</HeaderMenuItem>
+        <HeaderMenuItem href="/repos">Repositories</HeaderMenuItem>
         </HeaderNavigation>
         <SideNav
           aria-label="Side navigation"
