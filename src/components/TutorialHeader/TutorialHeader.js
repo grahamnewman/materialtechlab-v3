@@ -20,17 +20,17 @@ import {
 const TutorialHeader = () => (
   <HeaderContainer
     render={({ isSideNavExpanded, onClickSideNavExpand }) => (
-      <Header aria-label="IBM Carbon Tutorial">
+      <Header aria-label="Materialtechlab">
         <SkipToContent />
         <HeaderMenuButton
           aria-label="Open menu"
           onClick={onClickSideNavExpand}
           isActive={isSideNavExpanded}
         />
-        <HeaderName element={Link} to="/" prefix="IBM">
-          Carbon Tutorial
+        <HeaderName element={Link} to="/" prefix="Materialtech">
+          lab
         </HeaderName>
-        <HeaderNavigation aria-label="IBM Carbon Tutorial">
+        <HeaderNavigation aria-label="Materialtech lab">
         <HeaderMenuItem element={Link} to="repos">Repositories</HeaderMenuItem>        
         </HeaderNavigation>
         <SideNav
