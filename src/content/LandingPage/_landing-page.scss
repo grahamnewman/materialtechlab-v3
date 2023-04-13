@@ -69,3 +69,26 @@
     margin-right: 0;
   }
 }
+
+.landing-page__r3 {
+  padding-top: $spacing-09;
+  padding-bottom: $spacing-09;
+  padding-left: $spacing-06;
+  @include landing-page-background;
+}
+
+.landing-page__label {
+  @include type-style('heading-01');
+}
+
+.landing-page__banner,
+.landing-page__r2,
+.landing-page__r3 {
+  margin-left: -20px;
+  margin-right: -20px;
+
+  @include breakpoint-down(md) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
