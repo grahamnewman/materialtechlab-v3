@@ -9,6 +9,7 @@
     "@emotion/styled": "^11.10.6",
     "@fontsource/ibm-plex-sans": "^4.5.13",
     "@mui/material": "^5.11.16",
+    "@octokit/core": "4.2.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
