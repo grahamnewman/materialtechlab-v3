@@ -13,7 +13,7 @@ const RepoPage = () => {
   useEffect(() => {
     async function getCarbonRepos() {
       const res = await octokitClient.request('GET /orgs/{org}/repos', {
-        org: 'carbon-design-system',
+        org: 'material-tech-design',
         per_page: 75,
         sort: 'updated',
         direction: 'desc',
