@@ -4,7 +4,6 @@ import { Friendship, Idea, Sprout } from '@carbon/react/icons';
 import {
   Breadcrumb,
   BreadcrumbItem,
-  Button,
   Tabs,
   Tab,
   TabList,
@@ -24,26 +23,26 @@ const LandingPage = () => {
       <a href="/">Getting started</a>
     </BreadcrumbItem>
   </Breadcrumb>
-  <h1 className="landing-page__heading">Innovate, design and engineer bioplastics with Materialtech Lab
-</h1>
+  <h1 className="landing-page__heading">this is the programs page</h1>
       </Column>
       <Column lg={16} md={8} sm={4} className="landing-page__r2">
   <Tabs defaultSelectedIndex={0}>
     <TabList className="tabs-group" aria-label="Tab navigation">
-      <Tab>About</Tab>
-      <Tab>Research</Tab>
-      <Tab>Purpose</Tab>
+      <Tab>Materials</Tab>
+      <Tab>Sentiment</Tab>
+      <Tab>Labelling</Tab>
     </TabList>
     <TabPanels>
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">What is Materialtech Lab?</h2>
+            <h2 className="landing-page__subheading">What is Carbon?</h2>
             <p className="landing-page__p">
-            Materialtech Lab is a research facility that investigates the properties and potential applications of recycled content and biodegradable polymers for plastics packaging manufacturing. Our mission is to reduce the usage of virgin petroleum-based polymers and develop green composite alternatives for the FMCG industries. Materialtech Lab is curated by Graham Newman MRes RCA, FRSA.
+              Carbon is IBM’s open-source design system for digital products and
+              experiences. With the IBM Design Language as its foundation, the
+              system consists of working code, design tools and resources, human
+              interface guidelines, and a vibrant community of contributors.
             </p>
-            <Button href="#/repos">Learn more</Button>
-
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img

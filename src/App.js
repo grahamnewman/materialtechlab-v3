@@ -4,6 +4,7 @@ import { Content, Theme } from '@carbon/react';
 import TutorialHeader from './components/TutorialHeader';
 import { Route, Switch } from 'react-router-dom';
 import LandingPage from './content/LandingPage';
+import ProgramsPage from './content/ProgramsPage';
 import RepoPage from './content/RepoPage';
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
         <Content>
           <Switch>
             <Route exact path="/" component={LandingPage} />
+            <Route path="/programs" component={ProgramsPage} />
             <Route path="/repos" component={RepoPage} />
           </Switch>
         </Content>
