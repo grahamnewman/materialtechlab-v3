@@ -22,7 +22,7 @@ const LandingPage = () => {
       <Breadcrumb noTrailingSlash aria-label="Page navigation">
 
   </Breadcrumb>
-  <h1 className="landing-page__heading">Innovate, design and engineer bioplastics with Materialtech Lab
+  <h1 className="landing-page__heading">Innovate, design and manufacture with Materialtech Lab
 </h1>
       </Column>
       <Column lg={16} md={8} sm={4} className="landing-page__r2">
