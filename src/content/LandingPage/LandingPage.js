@@ -3,7 +3,6 @@ import { InfoSection, InfoCard } from '../../components/Info';
 import { Friendship, Idea, Sprout } from '@carbon/react/icons';
 import {
   Breadcrumb,
-  BreadcrumbItem,
   Button,
   Tabs,
   Tab,
@@ -12,6 +11,7 @@ import {
   TabPanel,
   Grid,
   Column,
+  Theme,
 } from '@carbon/react';
 
 
@@ -20,20 +20,20 @@ const LandingPage = () => {
     <Grid className="landing-page" fullWidth>
       <Column lg={16} md={8} sm={4} className="landing-page__banner">
       <Breadcrumb noTrailingSlash aria-label="Page navigation">
-    <BreadcrumbItem>
-      <a href="/">Getting started</a>
-    </BreadcrumbItem>
+
   </Breadcrumb>
   <h1 className="landing-page__heading">Innovate, design and engineer bioplastics with Materialtech Lab
 </h1>
       </Column>
       <Column lg={16} md={8} sm={4} className="landing-page__r2">
   <Tabs defaultSelectedIndex={0}>
-    <TabList className="tabs-group" aria-label="Tab navigation">
+  <Theme theme="g100">
+    <TabList className="tabs-group" aria-label="Tab navigation" contained>
       <Tab>About</Tab>
       <Tab>Research</Tab>
       <Tab>Purpose</Tab>
     </TabList>
+  </Theme>
     <TabPanels>
       <TabPanel>
         <Grid className="tabs-group-content">

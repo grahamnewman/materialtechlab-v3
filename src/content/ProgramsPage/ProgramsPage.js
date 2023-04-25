@@ -1,9 +1,10 @@
 import React from 'react';
 import { InfoSection, InfoCard } from '../../components/Info';
 import { Friendship, Idea, Sprout } from '@carbon/react/icons';
+import { Theme } from '@carbon/react';
+
 import {
   Breadcrumb,
-  BreadcrumbItem,
   Tabs,
   Tab,
   TabList,
@@ -19,19 +20,19 @@ const ProgramsPage = () => {
     <Grid className="landing-page" fullWidth>
       <Column lg={16} md={8} sm={4} className="landing-page__banner">
       <Breadcrumb noTrailingSlash aria-label="Page navigation">
-    <BreadcrumbItem>
-      <a href="/">Getting started</a>
-    </BreadcrumbItem>
+        
   </Breadcrumb>
   <h1 className="landing-page__heading">Programs of research</h1>
       </Column>
       <Column lg={16} md={8} sm={4} className="landing-page__r2">
   <Tabs defaultSelectedIndex={0}>
-    <TabList className="tabs-group" aria-label="Tab navigation">
+  <Theme theme="g100">
+    <TabList className="tabs-group" aria-label="Tab navigation" contained>
       <Tab>Materials</Tab>
       <Tab>Customers</Tab>
       <Tab>Labelling</Tab>
     </TabList>
+    </Theme>
     <TabPanels>
       <TabPanel>
         <Grid className="tabs-group-content">
