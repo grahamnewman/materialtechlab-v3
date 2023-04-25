@@ -37,9 +37,9 @@ const ProgramsPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Bioplastics and recycled content R&D</h2>
+            <h2 className="landing-page__subheading">Bio-based, biodegradable and recycled plastic</h2>
             <p className="landing-page__p">
-            The huge brands of the world export their products to 190 countries. They now want 20-30% of recycled content material in their products. Additionally there is currently a 6m ton shortfall of recycled content annually. This research program addresses this circular economy with alternatives in the form of bioplastics, and green composite materials where feedstock is being produced from sustainable sources, eg, waste material such as a food fibre, vegetable fibre and algae.
+            The huge brands of the world export their products to 190 countries. They now want 20-30% of recycled content material in their products. Additionally there is currently a 6m ton shortfall of recycled content annually. This research program addresses this circular economy with alternatives in the form of bio-based and biodegradable plastics material where feedstock is being produced from sustainable sources, eg, waste material such as a food fibre, vegetable fibre and algae. 
             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
@@ -56,7 +56,7 @@ const ProgramsPage = () => {
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
             <h2 className="landing-page__subheading">Customer sentiment and inclination</h2>
             <p className="landing-page__p">
-            Consumers and companies are looking more for products that are sustainable using recycled and biodegradable polymer content. There’s a 70-90% saving in energy use on this bioplastic content portion mixed with virgin petroleum-based polymers, hence there’s a carbon reduction and a huge pollution abatement. Additionally this research program investigates the commercial responsibility of aligning manufacturing materials, processes and technology to customer demand for companies to be fit for purpose.
+            Consumers and companies are looking more for products that are sustainable using recycled, bio-based and biodegradable plastics polymer content. There’s a 70-90% saving in energy use on this bioplastic content portion mixed with virgin petroleum-based polymers, hence there’s a carbon reduction and a huge pollution abatement. Additionally this research program investigates the commercial responsibility of aligning manufacturing materials, processes and technology to customer demand for companies to be fit for purpose. 
             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
@@ -73,7 +73,7 @@ const ProgramsPage = () => {
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
             <h2 className="landing-page__subheading">Mitigating label ambiguity</h2>
             <p className="landing-page__p">
-            This research program responds to consumers and companies in clarifying what is biodegradable or bio material that's meant to be recycled. This is the same for the recyclers clarifying what’s in their batches and the brands clarifying what’s in their feedstock. We aim to mitigate this ambiguity to achieve a consensual and fair definition of these complex materials using plain language and universal semiotics for non-sepcialised audiences.
+            This research program responds to consumers and companies in clarifying what is bio-based, biodegradable, and recycled plastics. This is the same for the recyclers clarifying what’s in their batches and the brands clarifying what’s in their feedstock. We aim to mitigate this ambiguity to achieve a consensual and fair definition of these complex materials using plain language and universal semiotics for non-specialised audiences.
             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
@@ -92,17 +92,17 @@ const ProgramsPage = () => {
 <InfoSection heading="The Principles" className="landing-page__r3">
   <InfoCard
     heading="Materialtech Lab is responsive"
-    body="Responding to the societal change in sentiment and inclination from countries, municipalities, companies and households committed to reducing disposable and single-use plastic packaging in fast moving consumer goods."
+    body="Responding to the societal change in sentiment and inclination from countries, municipalities, companies and households committed to reducing disposable and single-use plastic packaging in FMCGs."
     icon={() => <Friendship size={32} />}
   />
   <InfoCard
     heading="Materialtech Lab is innovation"
-    body="Taking steps to develop bioplastic sources that are more sustainable than petroleum eg, waste feedstock from plants, fibre and algae etc, to produce Polylactic acid (PLA)–the highest consumption volume of any bioplastic of the world–for plastic packaging."
+    body="Inventing and commercialising bio-based, biodegradable, and recycled plastics that are more sustainable than petroleum eg, waste feedstock from plants, fibre and algae etc, to produce Polylactic acid (PLA)–the highest consumption volume of any bioplastic of the world–for FMCG plastic packaging."
     icon={() => <Idea size={32} />}
   />
   <InfoCard
     heading="Materialtech Lab is green"
-    body="Biodegradable polymers and recycled content offer a sustainable alternative to traditional plastics and can reduce environmental pollution, waste and CO2 emissions. These bioplastic materials form part of the value chain in the circular recycling economy."
+    body="Bio-based, biodegradable, and recycled plastics content offer a sustainable alternative to traditional petroleum-based material, and can reduce environmental pollution, waste and CO2 emissions. These bioplastic materials form part of the value chain in the circular recycling economy."
     icon={() => <Sprout size={32} />}
   />
 </InfoSection>
