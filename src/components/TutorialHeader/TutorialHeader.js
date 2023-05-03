@@ -28,11 +28,12 @@ const TutorialHeader = () => (
           isActive={isSideNavExpanded}
         />
         <HeaderName element={Link} to="/" prefix="Materialtech">
-          lab
+          Lab
         </HeaderName>
         <HeaderNavigation aria-label="Materialtech lab">
-        <HeaderMenuItem element={Link} to="programs">Programs</HeaderMenuItem>              
+        <HeaderMenuItem element={Link} to="research">Research</HeaderMenuItem>              
         <HeaderMenuItem element={Link} to="repos">Repositories</HeaderMenuItem> 
+        <HeaderMenuItem element={Link} to="podcast">Podcast</HeaderMenuItem> 
         </HeaderNavigation>
         <SideNav
           aria-label="Side navigation"
@@ -41,8 +42,9 @@ const TutorialHeader = () => (
         >
           <SideNavItems>
             <HeaderSideNavItems>
-              <HeaderMenuItem href="/#/programs">Programs</HeaderMenuItem>
+              <HeaderMenuItem href="/#/research">Research</HeaderMenuItem>
               <HeaderMenuItem href="/#/repos">Repositories</HeaderMenuItem>
+              <HeaderMenuItem href="/#/podcast">Podcast</HeaderMenuItem>
             </HeaderSideNavItems>
           </SideNavItems>
         </SideNav>

@@ -4,8 +4,10 @@ import { Content, Theme } from '@carbon/react';
 import TutorialHeader from './components/TutorialHeader';
 import { Route, Switch } from 'react-router-dom';
 import LandingPage from './content/LandingPage';
-import ProgramsPage from './content/ProgramsPage';
+import ResearchPage from './content/ResearchPage';
 import RepoPage from './content/RepoPage';
+import PodcastPage from './content/PodcastPage';
+
 
 class App extends Component {
   render() {
@@ -17,8 +19,10 @@ class App extends Component {
         <Content>
           <Switch>
             <Route exact path="/" component={LandingPage} />
-            <Route path="/programs" component={ProgramsPage} />
+            <Route path="/research" component={ResearchPage} />
             <Route path="/repos" component={RepoPage} />
+            <Route path="/podcast" component={PodcastPage} />
+
           </Switch>
         </Content>
       </>

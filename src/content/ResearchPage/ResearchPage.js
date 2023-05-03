@@ -1,9 +1,10 @@
 import React from 'react';
 import { InfoSection, InfoCard } from '../../components/Info';
 import { Friendship, Idea, Sprout } from '@carbon/react/icons';
+import { Theme } from '@carbon/react';
+
 import {
   Breadcrumb,
-  Button,
   Tabs,
   Tab,
   TabList,
@@ -11,44 +12,39 @@ import {
   TabPanel,
   Grid,
   Column,
-  Theme,
 } from '@carbon/react';
 
-
-const LandingPage = () => {
+const ResearchPage = () => {
   return (
     <Grid className="landing-page" fullWidth>
       <Column lg={16} md={8} sm={4} className="landing-page__banner">
       <Breadcrumb noTrailingSlash aria-label="Page navigation">
-
+        
   </Breadcrumb>
-  <h1 className="landing-page__heading">Innovate, design and manufacture with Materialtech Lab
-</h1>
+  <h1 className="landing-page__heading">Research for individual, local and global value</h1>
       </Column>
       <Column lg={16} md={8} sm={4} className="landing-page__r2">
   <Tabs defaultSelectedIndex={0}>
   <Theme theme="g100">
     <TabList className="tabs-group" aria-label="Tab navigation" contained>
-      <Tab>About</Tab>
-      <Tab>Innovation</Tab>
-      <Tab>Purpose</Tab>
+      <Tab>Materials</Tab>
+      <Tab>Customers</Tab>
+      <Tab>Labelling</Tab>
     </TabList>
-  </Theme>
+    </Theme>
     <TabPanels>
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">What is Materialtech Lab?</h2>
+            <h2 className="landing-page__subheading">Bio-based, biodegradable and recycled plastic</h2>
             <p className="landing-page__p">
-            Materialtech Lab is a research facility that investigates the properties and potential applications of bio-based, biodegradable, and recycled plastics for manufacturing Fast Moving Consumer Goods (FMCG) packaging. Our mission is to reduce the use of virgin petroleum-based polymers by developing polymeric materials entirely or partially produced from biomass resources that degrade in a reasonable timeframe. Materialtech Lab is curated by Graham Newman MRes RCA, FRSA.
+            The huge brands of the world export their products to 190 countries. They now want 20-30% of recycled content material in their products. Additionally there is currently a 6m ton shortfall of recycled content annually. This research program addresses this circular economy with alternatives in the form of bio-based and biodegradable plastics material where feedstock is being produced from sustainable sources, eg, waste material such as a food fibre, vegetable fibre and algae. 
             </p>
-            <Button href="#/repos">Learn more</Button>
-
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/landing-page.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/research.png`}
               alt="Carbon illustration"
             />
           </Column>
@@ -57,17 +53,15 @@ const LandingPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Innovation design</h2>
+            <h2 className="landing-page__subheading">Customer sentiment and inclination</h2>
             <p className="landing-page__p">
-            Research and development in materials, production, and end customer sentiment and inclination for bio-based, biodegradable, and recycled plastics will help us design better packaging solutions for the planet. This is the fourth industrial revolution in practice, and part of the biodegradable and plastics recycling circular economy of manufacturing and packaging consumption. Moreover, this reduces disposable and single-use plastic usage, reduces CO2 from plastic manufacturing, and contributes to enterprise-level economies of scale.
+            Consumers and companies are looking more for products that are sustainable using recycled, bio-based and biodegradable plastics polymer content. There’s a 70-90% saving in energy use on this bioplastic content portion mixed with virgin petroleum-based polymers, hence there’s a carbon reduction and a huge pollution abatement. Additionally this research program investigates the commercial responsibility of aligning manufacturing materials, processes and technology to customer demand for companies to be fit for purpose. 
             </p>
-            <Button href="#/repos">Learn more</Button>
-
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/landing-page.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/research.png`}
               alt="Carbon illustration"
             />
           </Column>
@@ -76,17 +70,15 @@ const LandingPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Responding to customer demand</h2>
+            <h2 className="landing-page__subheading">Mitigating label ambiguity</h2>
             <p className="landing-page__p">
-            Society has become extremely efficient at producing and consuming plastic. Now it needs to become extremely efficient in reusing it with a second and third life. Plastic production currently contributes 7% of the total CO2 global pie. Research claims this will be 15% within 20 years with the growing population. This purpose starts with clarifying the two types of bio-based and biodegradable plastics, and recycled plastics: one is meant to be biodegraded in a reasonable timeframe compatible with human life cycles, the other is meant to be recycled by which plastic waste is reprocessed into plastic technically very close to the virgin one. Both can get into the waste/recycling stream with other recycled content, and with virgin petroleum-based polymers. Even if these products don’t degrade for two to three years, it’s much better than 400 years from the petroleum products.
+            This research program responds to consumers and companies in clarifying what is bio-based, biodegradable, and recycled plastics. This is the same for the recyclers clarifying what’s in their batches and the brands clarifying what’s in their feedstock. We aim to mitigate this ambiguity to achieve a consensual and fair definition of these complex materials using plain language and universal semiotics for non-specialised audiences.
             </p>
-            <Button href="#/repos">Learn more</Button>
-
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/landing-page.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/research.png`}
               alt="Carbon illustration"
             />
           </Column>
@@ -118,4 +110,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default ResearchPage;

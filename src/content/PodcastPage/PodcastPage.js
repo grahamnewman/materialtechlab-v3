@@ -13,24 +13,25 @@ import {
   Grid,
   Column,
 } from '@carbon/react';
+import Iframe from 'react-iframe';
 
 
-const ProgramsPage = () => {
+const PodcastPage = () => {
   return (
     <Grid className="landing-page" fullWidth>
       <Column lg={16} md={8} sm={4} className="landing-page__banner">
       <Breadcrumb noTrailingSlash aria-label="Page navigation">
         
   </Breadcrumb>
-  <h1 className="landing-page__heading">Programs of research</h1>
+  <h1 className="landing-page__heading">Making + Doing podcast</h1>
       </Column>
       <Column lg={16} md={8} sm={4} className="landing-page__r2">
   <Tabs defaultSelectedIndex={0}>
   <Theme theme="g100">
     <TabList className="tabs-group" aria-label="Tab navigation" contained>
-      <Tab>Materials</Tab>
-      <Tab>Customers</Tab>
-      <Tab>Labelling</Tab>
+      <Tab>Episodes</Tab>
+      <Tab>About</Tab>
+      <Tab>Media</Tab>
     </TabList>
     </Theme>
     <TabPanels>
@@ -41,6 +42,8 @@ const ProgramsPage = () => {
             <p className="landing-page__p">
             The huge brands of the world export their products to 190 countries. They now want 20-30% of recycled content material in their products. Additionally there is currently a 6m ton shortfall of recycled content annually. This research program addresses this circular economy with alternatives in the form of bio-based and biodegradable plastics material where feedstock is being produced from sustainable sources, eg, waste material such as a food fibre, vegetable fibre and algae. 
             </p>
+            <Iframe class="castos-iframe-player" src="https://5f34942001d3e9-29149447.castos.com/player/1462497" width="100%" height="150"></Iframe>
+
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
@@ -111,4 +114,4 @@ const ProgramsPage = () => {
   );
 };
 
-export default ProgramsPage;
+export default PodcastPage;
