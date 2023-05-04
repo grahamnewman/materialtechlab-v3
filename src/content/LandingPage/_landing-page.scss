@@ -95,5 +95,11 @@
   }
 }
 
+/* my styles */
+.landing-page__ftnt {
+  @include type-style('label-01');
+  margin-top: $spacing-03;
+  margin-bottom: $spacing-04;
 
+}
 

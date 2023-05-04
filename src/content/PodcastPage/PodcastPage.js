@@ -1,6 +1,6 @@
 import React from 'react';
 import { InfoSection, InfoCard } from '../../components/Info';
-import { Friendship, Idea, Sprout } from '@carbon/react/icons';
+import { Friendship, Idea, Sprout, Rss } from '@carbon/react/icons';
 import { Theme } from '@carbon/react';
 
 import {
@@ -38,11 +38,21 @@ const PodcastPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Bio-based, biodegradable and recycled plastic</h2>
+            <h2 className="landing-page__subheading">Opinion and conversation for design thinking transformation</h2>
             <p className="landing-page__p">
-            The huge brands of the world export their products to 190 countries. They now want 20-30% of recycled content material in their products. Additionally there is currently a 6m ton shortfall of recycled content annually. This research program addresses this circular economy with alternatives in the form of bio-based and biodegradable plastics material where feedstock is being produced from sustainable sources, eg, waste material such as a food fibre, vegetable fibre and algae. 
-            </p>
+            Graham Newman and his guests discuss the synergy between creativity, science and technology to foster innovation–as design evolves from making things to making things possible. Bangkok | Singapore</p> 
+            <p className="landing-page__p">
+            RSS&nbsp;&nbsp;<a href="https://feeds.castos.com/z9697">
+              <Rss size={32}/></a></p>       
+            <h2 className="landing-page__subheading">Latest episodes</h2>
+            <p className="landing-page__p">Ocean Recovery Alliance’s founder outlines societal changes towards consumption and recycling are as important as the global feedstock economy to fix what’s gone wrong. Published April 2023.</p>
             <Iframe class="castos-iframe-player" src="https://5f34942001d3e9-29149447.castos.com/player/1462497" width="100%" height="150"></Iframe>
+            <p className="landing-page__p">How might learning and development programs embedded with employability be a means to bridge the gap between the academy and industry? And why design education needs a revolution to support S-curve organisations. Published March 2023.</p>
+            <Iframe class="castos-iframe-player" src="https://5f34942001d3e9-29149447.castos.com/player/1439986" width="100%" height="150"></Iframe>
+            <p className="landing-page__p"></p>
+            <h2 className="landing-page__subheading">From the archive</h2>
+            <p className="landing-page__p">Entrepreneurship in Thailand with Khun Tiwa York. Published April 2021.</p>
+            <Iframe class="castos-iframe-player" src="https://5f34942001d3e9-29149447.castos.com/player/420788" width="100%" height="150"></Iframe>
 
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
@@ -57,9 +67,9 @@ const PodcastPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Customer sentiment and inclination</h2>
+            <h2 className="landing-page__subheading">Origins and intent</h2>
             <p className="landing-page__p">
-            Consumers and companies are looking more for products that are sustainable using recycled, bio-based and biodegradable plastics polymer content. There’s a 70-90% saving in energy use on this bioplastic content portion mixed with virgin petroleum-based polymers, hence there’s a carbon reduction and a huge pollution abatement. Additionally this research program investigates the commercial responsibility of aligning manufacturing materials, processes and technology to customer demand for companies to be fit for purpose. 
+            Making and doing is a phrase commonly used at the Royal College of Art. Its origins are at the heart of design as a world of synthesis. Of creating things–some tangible, some not. This is achieved through reflective observation, abstract conceptualisation, active experimentation, and concrete experience. And these multiple experiences occur at the individual, local and global level.<br></br><br></br>The podcast's audience is drawn from design researchers and practitioners, and leaders in business, consulting and industry across Asia Pacific looking at the broader picture of how design fuses creativity, science and technology through interdisciplinary and transdisciplinary practice to make change, and challenge current thinking through guerilla intervention and disruption. Making + Doing is published once a month on Spotify, Apple Podcasts, Amazon Music and Google Podcasts. Keywords: Design, Research, Society, Culture, Entrepreneurship.
             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
@@ -74,9 +84,10 @@ const PodcastPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Mitigating label ambiguity</h2>
+            <h2 className="landing-page__subheading">Inquiries</h2>
             <p className="landing-page__p">
-            This research program responds to consumers and companies in clarifying what is bio-based, biodegradable, and recycled plastics. This is the same for the recyclers clarifying what’s in their batches and the brands clarifying what’s in their feedstock. We aim to mitigate this ambiguity to achieve a consensual and fair definition of these complex materials using plain language and universal semiotics for non-specialised audiences.
+            Graham Newman MRes RCA FRSA is an award-winning designer across human-computer interaction, brand, customer and product experiences. He builds new businesses for global clients and leads digital and service design in Asia Pacific. Graham is a guarantor and senior instructor at Chulalongkorn University’s international program in Communication Design, Faculty of Architecture and a graduate of the Royal College of Art. Graham was awarded Fellowship of The Royal Society of Arts, Manufactures and Commerce (FRSA) for his contribution to inspiring better ways of thinking, acting and delivering change in 2017.
+            <br></br><br></br>Graham started his design career at Factory Records and Fac 51 The Haçienda bridging design, technology and culture that included development of the world’s first interactive music CD-Rom. He has bumped into design thinking from time to time over the last decade but maintains that design is still about making and doing, then post-rationalising what it’s all about. 
             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
