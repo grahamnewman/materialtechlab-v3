@@ -40,7 +40,7 @@ const LandingPage = () => {
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
             <h2 className="landing-page__subheading">What is Materialtech Lab?</h2>
             <p className="landing-page__p">
-            Materialtech Lab is a research facility that investigates the properties and potential applications of bio-based, biodegradable, and recycled plastics for manufacturing Fast Moving Consumer Goods (FMCG) packaging. Our mission is to reduce the use of virgin petroleum-based polymers by developing polymeric materials entirely or partially produced from biomass resources that degrade in a reasonable timeframe. Materialtech Lab is curated by Graham Newman MRes RCA, FRSA.
+            Materialtech Lab is a design research facility that investigates the properties and potential applications of bio-based, biodegradable, and recycled plastics for manufacturing. Our mission is to reduce the use of virgin petroleum-based polymers in Fast Moving Consumer Goods (FMCG) packaging. This interdisciplinary approach to innovation merges design and science by developing polymeric materials entirely or partially produced from biomass resources that degrade in a reasonable timeframe. Materialtech Lab is curated by Graham Newman MRes RCA, FRSA.
             </p>
             <Button href="#/repos">Learn more</Button>
 
@@ -48,18 +48,18 @@ const LandingPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain1.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain9.png`}
               alt="Carbon illustration"
             />
           </Column>
-        </Grid>
+        </Grid>   
       </TabPanel>
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
             <h2 className="landing-page__subheading">Collaborative and interdisciplinary interventions</h2>
             <p className="landing-page__p">
-            Research and development in materials, production, and end customer sentiment and inclination for bio-based, biodegradable, and recycled plastics will help us design better packaging solutions for the planet. This is the fourth industrial revolution in practice, and part of the biodegradable and plastics recycling circular economy of manufacturing and packaging consumption. Moreover, this reduces disposable and single-use plastic usage, reduces CO2 from plastic manufacturing, and contributes to enterprise-level economies of scale.
+            Research and development in materials, production, and end customer sentiment for bio-based, biodegradable, and recycled plastics will help us design better packaging solutions for the planet. This is the fourth industrial revolution in practice, and part of the biodegradable and plastics recycling circular economy of manufacturing and packaging consumption. Moreover, this intervention reduces disposable and single-use plastic usage, reduces CO2 from plastic manufacturing, and contributes to a deeper social responsibility commitment from industry.
             </p>
             <Button href="#/repos">Learn more</Button>
 
@@ -67,7 +67,7 @@ const LandingPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain1.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain4.png`}
               alt="Carbon illustration"
             />
           </Column>
@@ -76,9 +76,10 @@ const LandingPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Responding to customer demand</h2>
+            <h2 className="landing-page__subheading">Responding to customer and consumer demand</h2>
             <p className="landing-page__p">
-            Society has become extremely efficient at producing and consuming plastic. Now it needs to become extremely efficient in reusing it with a second and third life. Plastic production currently contributes 7% of the total CO2 global pie. Research claims this will be 15% within 20 years with the growing population.<br></br><br></br>This purpose starts with clarifying the two types of bio-based and biodegradable plastics, and recycled plastics: one is meant to be biodegraded in a reasonable timeframe compatible with human life cycles, the other is meant to be recycled by which plastic waste is reprocessed into plastic technically very close to the virgin one. Both can get into the waste/recycling stream with other recycled content, and with virgin petroleum-based polymers. Even if these products don’t degrade for two to three years, it’s much better than 400 years from the petroleum products.
+            Society has become extremely efficient at producing and consuming plastic. Now it needs to become extremely efficient in reusing it with a second and third life. Plastic production currently contributes 7% of the total CO2 global pie. Research claims this will be 15% within 20 years with the growing population.<br></br><br></br>This research starts with clarifying the two types of bio-based and biodegradable plastics, and recycled plastics: one is meant to be biodegraded in a reasonable timeframe compatible with human life cycles. The other is meant to be recycled by which plastic waste is reprocessed into plastic technically very close to the conventional polymer. Both can get into the waste/recycling stream with other recycled content, and with virgin petroleum-based polymers. Even if these products don’t degrade for two to three years, it’s much better than 400 years from petroleum products.
+
             </p>
             <Button href="#/repos">Learn more</Button>
 
@@ -86,10 +87,10 @@ const LandingPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/taxonomy.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/plastics-taxonomy.png`}
               alt="Carbon illustration"
             />
-            <p className="landing-page__ftnt">Full descriptions of the plastics taxonomy can be found in the glossaries repo. Visualisation based on  Shah, Manali & Rajhans, Sanjukta & Pandya, Himanshu & Mankad, Archana. (2021). Bioplastic for future: A review then and now. World Journal of Advanced Research and Reviews. 9. 056-067. 10.30574/wjarr.2021.9.2.0054.</p>
+            <p className="landing-page__ftnt">Full descriptions of the plastics taxonomy can be found in the glossaries repo. Visualisation based on Shah, Manali & Rajhans, Sanjukta & Pandya, Himanshu & Mankad, Archana. (2021). Bioplastic for future: A review then and now. World Journal of Advanced Research and Reviews. 9. 056-067. 10.30574/wjarr.2021.9.2.0054.</p>
           </Column>
         </Grid>
       </TabPanel>

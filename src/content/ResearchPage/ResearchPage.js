@@ -21,7 +21,7 @@ const ResearchPage = () => {
       <Breadcrumb noTrailingSlash aria-label="Page navigation">
         
   </Breadcrumb>
-  <h1 className="landing-page__heading">Research for individual, local and global value</h1>
+  <h1 className="landing-page__heading">Design research for individual, local and global purpose</h1>
       </Column>
       <Column lg={16} md={8} sm={4} className="landing-page__r2">
   <Tabs defaultSelectedIndex={0}>
@@ -38,13 +38,13 @@ const ResearchPage = () => {
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
             <h2 className="landing-page__subheading">Bio-based, biodegradable and recycled plastic</h2>
             <p className="landing-page__p">
-            The huge brands of the world export their products to 190 countries. They now want 20-30% of recycled content material in their products. Additionally there is currently a 6m ton shortfall of recycled content annually. This research program addresses this circular economy with alternatives in the form of bio-based and biodegradable plastics material where feedstock is being produced from sustainable sources, eg, waste material such as a food fibre, vegetable fibre and algae. 
+            The huge retail brands of the world export their products to 190 countries. They now want 20-30% of recycled content material in their products. Additionally there is currently a 6m ton shortfall of recycled content annually. This research program investigates the plastics manufacturing and consumption ecosystem using design intervention methods to analyse alternative materials in the form of bio-based, biodegradable, and recycled materials. This feedstock material is produced from sustainable sources, eg, waste material such as  food, starch and vegetable fibres, and algae. 
             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/research.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain5.png`}
               alt="Carbon illustration"
             />
           </Column>
@@ -55,13 +55,12 @@ const ResearchPage = () => {
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
             <h2 className="landing-page__subheading">Customer sentiment and inclination</h2>
             <p className="landing-page__p">
-            Consumers and companies are looking more for products that are sustainable using recycled, bio-based and biodegradable plastics polymer content. There’s a 70-90% saving in energy use on this bioplastic content portion mixed with virgin petroleum-based polymers, hence there’s a carbon reduction and a huge pollution abatement. Additionally this research program investigates the commercial responsibility of aligning manufacturing materials, processes and technology to customer demand for companies to be fit for purpose. 
-            </p>
+            Consumers and retail brands are looking more for products that are sustainable using recycled, bio-based and biodegradable plastics polymer content. There’s a 70-90% saving in manufacturing energy use on this bioplastic content portion mixed with virgin petroleum-based polymers. Hence there’s a carbon reduction and a huge pollution abatement. Additionally this research program investigates the triple bottom line of economic scale, environmental consequences, and social attitudes. Aligning these materials, processes and technologies to customer demand affords manufacturing companies to be fit for purpose in the long term.             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/research.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain3.png`}
               alt="Carbon illustration"
             />
           </Column>
@@ -72,13 +71,13 @@ const ResearchPage = () => {
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
             <h2 className="landing-page__subheading">Mitigating label ambiguity</h2>
             <p className="landing-page__p">
-            This research program responds to consumers and companies in clarifying what is bio-based, biodegradable, and recycled plastics. This is the same for the recyclers clarifying what’s in their batches and the brands clarifying what’s in their feedstock. We aim to mitigate this ambiguity to achieve a consensual and fair definition of these complex materials using plain language and universal semiotics for non-specialised audiences.
+            This research program responds to consumers and retail brands in clarifying what is bio-based, biodegradable, and recycled plastic material. This is the same for the recyclers clarifying what’s in their batches and the brands clarifying what’s in their feedstock. We aim to mitigate this ambiguity to achieve a consensual and fair definition of these complex materials using plain language and accessibility semiotics for non-specialised audiences. For example: if the material is not 100% bio-based, the actual percentage has to be prefixed (eg, “30% bio-based plastic”).
             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/research.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain8.png`}
               alt="Carbon illustration"
             />
           </Column>

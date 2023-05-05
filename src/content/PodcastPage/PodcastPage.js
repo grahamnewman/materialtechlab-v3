@@ -58,7 +58,7 @@ const PodcastPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/tab-illo.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain2.png`}
               alt="Carbon illustration"
             />
           </Column>
@@ -75,7 +75,7 @@ const PodcastPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/tab-illo.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain6.png`}
               alt="Carbon illustration"
             />
           </Column>
@@ -84,7 +84,7 @@ const PodcastPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Inquiries</h2>
+            <h2 className="landing-page__subheading">Profile</h2>
             <p className="landing-page__p">
             Graham Newman MRes RCA FRSA is an award-winning designer across human-computer interaction, brand, customer and product experiences. He builds new businesses for global clients and leads digital and service design in Asia Pacific. Graham is a guarantor and senior instructor at Chulalongkorn University’s international program in Communication Design, Faculty of Architecture and a graduate of the Royal College of Art. Graham was awarded Fellowship of The Royal Society of Arts, Manufactures and Commerce (FRSA) for his contribution to inspiring better ways of thinking, acting and delivering change in 2017.
             <br></br><br></br>Graham started his design career at Factory Records and Fac 51 The Haçienda bridging design, technology and culture that included development of the world’s first interactive music CD-Rom. He has bumped into design thinking from time to time over the last decade but maintains that design is still about making and doing, then post-rationalising what it’s all about. 
@@ -93,7 +93,7 @@ const PodcastPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/tab-illo.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain7.png`}
               alt="Carbon illustration"
             />
           </Column>
