@@ -5,6 +5,7 @@ import TutorialHeader from './components/TutorialHeader';
 import { Route, Switch } from 'react-router-dom';
 import LandingPage from './content/LandingPage';
 import ResearchPage from './content/ResearchPage';
+import StrategyPage from './content/StrategyPage';
 import RepoPage from './content/RepoPage';
 import PodcastPage from './content/PodcastPage';
 
@@ -20,6 +21,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={LandingPage} />
             <Route path="/research" component={ResearchPage} />
+            <Route path="/strategy" component={StrategyPage} />
             <Route path="/repos" component={RepoPage} />
             <Route path="/podcast" component={PodcastPage} />
 

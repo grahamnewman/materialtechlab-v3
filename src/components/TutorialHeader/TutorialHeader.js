@@ -31,7 +31,8 @@ const TutorialHeader = () => (
           Lab
         </HeaderName>
         <HeaderNavigation aria-label="Materialtech lab">
-        <HeaderMenuItem element={Link} to="research">Research</HeaderMenuItem>              
+        <HeaderMenuItem element={Link} to="research">Research</HeaderMenuItem> 
+        <HeaderMenuItem element={Link} to="strategy">Strategy</HeaderMenuItem>                           
         <HeaderMenuItem element={Link} to="repos">Repositories</HeaderMenuItem> 
         <HeaderMenuItem element={Link} to="podcast">Podcast</HeaderMenuItem> 
         </HeaderNavigation>
@@ -43,6 +44,7 @@ const TutorialHeader = () => (
           <SideNavItems>
             <HeaderSideNavItems>
               <HeaderMenuItem href="/#/research">Research</HeaderMenuItem>
+              <HeaderMenuItem href="/#/strategy">Strategy</HeaderMenuItem>
               <HeaderMenuItem href="/#/repos">Repositories</HeaderMenuItem>
               <HeaderMenuItem href="/#/podcast">Podcast</HeaderMenuItem>
             </HeaderSideNavItems>
