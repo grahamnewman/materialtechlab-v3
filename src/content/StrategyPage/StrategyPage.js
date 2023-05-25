@@ -21,7 +21,7 @@ const ResearchPage = () => {
       <Breadcrumb noTrailingSlash aria-label="Page navigation">
         
   </Breadcrumb>
-  <h1 className="landing-page__heading">Strategy that delivers innovation</h1>
+  <h1 className="landing-page__heading">Strategy that delivers innovation design and engineering</h1>
       </Column>
       <Column lg={16} md={8} sm={4} className="landing-page__r2">
   <Tabs defaultSelectedIndex={0}>
@@ -36,15 +36,18 @@ const ResearchPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Bio-based, biodegradable and recycled plastic</h2>
+            <h2 className="landing-page__subheading">Investment in science, research and innovation design</h2>
             <p className="landing-page__p">
-            The huge retail brands of the world export their products to 190 countries. They now want 20-30% of recycled content material in their products. Additionally there is currently a 6m ton shortfall of recycled content annually. This research program investigates the plastics manufacturing and consumption ecosystem using design intervention methods to analyse alternative materials in the form of bio-based, biodegradable, and recycled materials. This feedstock material is produced from sustainable sources, eg, waste material such as  food, starch and vegetable fibres, and algae. 
+            In today's increasingly environmentally conscious world, the bioplastics industry presents a tremendous opportunity for businesses aiming to combine profitability with sustainability. Developing an effective business strategy for a bioplastics company requires careful consideration of various factors.
+            <br></br><br></br>First and foremost, product innovation should be at the core of the strategy. Investing in research and development to create bioplastics that meet or exceed the performance of traditional plastics will help gain a competitive edge in the market. <p className="helper-text-01">See Cornered Resource and Counter Positioning</p><br></br>Additionally, forging strategic partnerships with suppliers, manufacturers, and distributors is crucial. Collaborating with like-minded organizations can help secure a reliable supply chain and ensure efficient production and distribution of bioplastics. Furthermore, a strong focus on marketing and communication is essential. Educating consumers about the benefits of bioplastics, such as their renewable nature and reduced environmental impact, can drive demand and foster brand loyalty. <p className="helper-text-01">See Network Economics, Scale Economics, Switching Costs, and Branding</p>
+            <br></br>Lastly, integrating sustainability throughout the company's operations is vital. Implementing environmentally friendly practices in manufacturing, packaging, and waste management will reinforce the company's commitment to sustainability and attract environmentally conscious consumers and investors. <p className="helper-text-01">See Process Power</p>
+            <br></br>By combining product innovation, strategic partnerships, effective marketing, and sustainable practices, a bioplastics company can position itself as a leader in the industry, capturing market share and contributing to a greener future.
             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/plastics-taxonomy.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/power.png`}
               alt="Carbon illustration"
             />
             <p className="landing-page__ftnt"> Adapted from: Helmer, H. (2016). 7 powers: The Foundations of Business Strategy. California: Hamilton Helmer.</p>
@@ -54,23 +57,27 @@ const ResearchPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Customer sentiment and inclination</h2>
-            <p className="landing-page__p">
-            Consumers and retail brands are looking more for products that are sustainable using recycled, bio-based and biodegradable plastics polymer content. There’s a 70-90% saving in manufacturing energy use on this bioplastic content portion mixed with virgin petroleum-based polymers. Hence there’s a carbon reduction and a huge pollution abatement. Additionally this research program investigates the triple bottom line of economic scale, environmental consequences, and social attitudes. Aligning these materials, processes and technologies to customer demand affords manufacturing companies to be fit for purpose in the long term.             </p>
+            <h2 className="landing-page__subheading">3M's Innovation KPIs</h2>
+            <p className="landing-page__p">3M emphasises innovation as a fundamental aspect of its business strategy. The company utilises several KPIs to measure the effectiveness of its innovation initiatives. Firstly, 3M focuses on the percentage of revenue generated from new products launched within the last five years, as it reflects the company's ability to consistently introduce innovative solutions to the market. Secondly, the number of patents filed and granted serves as an indicator of 3M's commitment to protecting its intellectual property and fostering a culture of invention. Lastly, 3M tracks the success rate of new product launches, measuring the percentage of products that achieve or exceed their sales targets, ensuring that innovation efforts translate into tangible commercial success. This ensures that innovation remains a core driver of growth and competitiveness in a rapidly evolving business landscape.
+            <br></br><br></br><h4 className="landing-page__subheading">Input metrics</h4>Number of new ideas in the funnel: Continuously coming up with new ideas to feed the funnel. and scaled to the size of the company. Acceptance/idea kill rate: Number of projects evaluated to get funded as a benchmark. Balanced investment: Metric on spend for existing and new markets.
+            <br></br><br></br><h4 className="landing-page__subheading">Impact metrics</h4>Percentage of revenue from new products: Products introduced in the last 12 months. This avoids products becoming overly dominant. Quality of patents: Not the quantity. Referenced across other patents in the industry. Innovation impact on gross margin: Spend on innovation that reflects the company’s branding soft power.
+            </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain3.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/innovation_kpis.png`}
               alt="Carbon illustration"
             />
+            <p className="landing-page__ftnt"> Adapted from: McKinney, P (2021). Six innovation metrics (KPIs) every organisation should use.</p>
+
           </Column>
         </Grid>
       </TabPanel>
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Mitigating label ambiguity</h2>
+            <h2 className="landing-page__subheading">Patents in here</h2>
             <p className="landing-page__p">
             This research program responds to consumers and retail brands in clarifying what is bio-based, biodegradable, and recycled plastic material. This is the same for the recyclers clarifying what’s in their batches and the brands clarifying what’s in their feedstock. We aim to mitigate this ambiguity to achieve a consensual and fair definition of these complex materials using plain language and accessibility semiotics for non-specialised audiences. For example: if the material is not 100% bio-based, the actual percentage has to be prefixed (eg, “30% bio-based plastic”).
             </p>
