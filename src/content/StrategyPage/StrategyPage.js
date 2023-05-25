@@ -77,18 +77,22 @@ const ResearchPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Patents in here</h2>
+            <h2 className="landing-page__subheading">Bio-based and biodegradable polymer blend patent filing</h2>
             <p className="landing-page__p">
-            This research program responds to consumers and retail brands in clarifying what is bio-based, biodegradable, and recycled plastic material. This is the same for the recyclers clarifying what’s in their batches and the brands clarifying what’s in their feedstock. We aim to mitigate this ambiguity to achieve a consensual and fair definition of these complex materials using plain language and accessibility semiotics for non-specialised audiences. For example: if the material is not 100% bio-based, the actual percentage has to be prefixed (eg, “30% bio-based plastic”).
+            Activity has decreased with bio-based and biodegradable polymer blend patent filing in recent years. Several factors point to this phenomenon outside of Covid-19’s impact: 
+            <br></br><br></br>Market maturity: The bio-based and biodegradable polymer blend market may have reached a certain level of maturity, resulting in a saturation of patentable innovations. As the field evolves, companies may focus more on product development and commercialization rather than filing new patents.
+            <br></br><br></br>Technology stabilisation: The technology and processes related to bio-based and biodegradable polymer blends might have become more stable and well-established. This could lead to fewer breakthrough innovations and therefore a decline in patent filings.
+            <br></br><br></br>Patent portfolio consolidation: Companies may have already built substantial patent portfolios in the past, and their focus might have shifted towards optimising and consolidating existing intellectual property rather than pursuing new patent filings.
+            <br></br><br></br>Regulatory environment: Changes in regulations or policies related to bio-based and biodegradable plastic material could have influenced the patent landscape. Shifts in governmental policies may impact the incentives for companies to file patents in this area.
             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/plastics-taxonomy.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/patents.png`}
               alt="Carbon illustration"
             />
-            <p className="landing-page__ftnt"> Adapted from: Helmer, H. (2016). 7 powers: The Foundations of Business Strategy. California: Hamilton Helmer.</p>
+            <p className="landing-page__ftnt">Top ten bioplastics patent filers by priority filings within the last 10 years. Adapted from: Appleyard Lees. (2021). Inside Green Innovation: Progress Report 2021. Available at: https://appleyardlees.foleon.com/igipr/inside-green-innovation-progress-report-2021/3-bioplastics/ (Accessed: 25 May 2023). </p>
           </Column>
         </Grid>
       </TabPanel>
