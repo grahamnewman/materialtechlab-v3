@@ -47,7 +47,7 @@ const ResearchPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/power.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/power_progression.png`}
               alt="Carbon illustration"
             />
             <p className="landing-page__ftnt"> Adapted from: Helmer, H. (2016). 7 powers: The Foundations of Business Strategy. California: Hamilton Helmer.</p>
@@ -79,17 +79,14 @@ const ResearchPage = () => {
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
             <h2 className="landing-page__subheading">Bio-based and biodegradable polymer blend patent filing</h2>
             <p className="landing-page__p">
-            Activity has decreased with bio-based and biodegradable polymer blend patent filing in recent years. Several factors point to this phenomenon outside of Covid-19’s impact: 
-            <br></br><br></br>Market maturity: The bio-based and biodegradable polymer blend market may have reached a certain level of maturity, resulting in a saturation of patentable innovations. As the field evolves, companies may focus more on product development and commercialization rather than filing new patents.
-            <br></br><br></br>Technology stabilisation: The technology and processes related to bio-based and biodegradable polymer blends might have become more stable and well-established. This could lead to fewer breakthrough innovations and therefore a decline in patent filings.
-            <br></br><br></br>Patent portfolio consolidation: Companies may have already built substantial patent portfolios in the past, and their focus might have shifted towards optimising and consolidating existing intellectual property rather than pursuing new patent filings.
-            <br></br><br></br>Regulatory environment: Changes in regulations or policies related to bio-based and biodegradable plastic material could have influenced the patent landscape. Shifts in governmental policies may impact the incentives for companies to file patents in this area.
+            The patent filing trend for bio-based and biodegradable polymer blends indicates a growing interest in sustainable materials outside of Covid-19’s impact. Researchers and manufacturers are increasingly focusing on developing innovative blends that combine bio-based polymers with biodegradable additives. This trend reflects the rising demand for eco-friendly alternatives to conventional plastics. Looking ahead, the forecast suggests a continued upward trajectory in patent filings for these polymer blends. The trend aligns with the global push for more sustainable solutions in various industries, such as packaging, textiles, and biomedical applications, where bio-based and biodegradable polymer blends offer significant environmental benefits.
+            <br></br><br></br>There are four factors that may slow down patent applications. Market maturity: the bio-based and biodegradable polymer blend market may have reached a certain level of maturity, resulting in a saturation of patentable innovations. As the field evolves, companies may focus more on product development and commercialisation rather than filing new patents. Technology stabilisation: the technology and processes related to bio-based and biodegradable polymer blends might have become more stable and well-established. This could lead to fewer breakthrough innovations and therefore a decline in patent filings. Patent portfolio consolidation: leading companies may have already built substantial patent portfolios in the past, and their focus might have shifted towards optimising and consolidating existing intellectual property rather than pursuing new patent filings. Regulatory environment: changes in regulations or policies related to bio-based and biodegradable plastic material could have influenced the patent landscape. Shifts in governmental policies may impact the incentives for companies to file patents in this area.
             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/patents.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/patent_filing.png`}
               alt="Carbon illustration"
             />
             <p className="landing-page__ftnt">Top ten bioplastics patent filers by priority filings within the last 10 years. Adapted from: Appleyard Lees. (2021). Inside Green Innovation: Progress Report 2021. Available at: https://appleyardlees.foleon.com/igipr/inside-green-innovation-progress-report-2021/3-bioplastics/ (Accessed: 25 May 2023). </p>
