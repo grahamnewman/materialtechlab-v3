@@ -47,7 +47,7 @@ const ResearchPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/power_progression.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/power_progression.svg`}
               alt="Carbon illustration"
             />
             <p className="landing-page__ftnt"> Adapted from: Helmer, H. (2016). 7 powers: The Foundations of Business Strategy. California: Hamilton Helmer.</p>
@@ -66,7 +66,7 @@ const ResearchPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/innovation_kpis.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/innovation_kpis.svg`}
               alt="Carbon illustration"
             />
             <p className="landing-page__ftnt"> Adapted from: McKinney, P (2021). Six innovation metrics (KPIs) every organisation should use.</p>
@@ -86,7 +86,7 @@ const ResearchPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/patent_filing.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/patent_filing.svg`}
               alt="Carbon illustration"
             />
             <p className="landing-page__ftnt">Top ten bioplastics patent filers by priority filings within the last 10 years. Adapted from: Appleyard Lees. (2021). Inside Green Innovation: Progress Report 2021. Available at: https://appleyardlees.foleon.com/igipr/inside-green-innovation-progress-report-2021/3-bioplastics/ (Accessed: 25 May 2023). </p>

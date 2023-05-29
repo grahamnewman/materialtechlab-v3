@@ -29,7 +29,7 @@ const ResearchPage = () => {
     <TabList className="tabs-group" aria-label="Tab navigation" contained>
       <Tab>Materials</Tab>
       <Tab>Customers</Tab>
-      <Tab>Labelling</Tab>
+      <Tab>Products</Tab>
     </TabList>
     </Theme>
     <TabPanels>
@@ -44,7 +44,7 @@ const ResearchPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain5.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/plastics_taxonomy.svg`}
               alt="Carbon illustration"
             />
           </Column>
@@ -69,17 +69,18 @@ const ResearchPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Mitigating label ambiguity</h2>
+            <h2 className="landing-page__subheading">Product design R&D</h2>
             <p className="landing-page__p">
-            This research program responds to consumers and retail brands in clarifying what is bio-based, biodegradable, and recycled plastic material. This is the same for the recyclers clarifying what’s in their batches and the brands clarifying what’s in their feedstock. We aim to mitigate this ambiguity to achieve a consensual and fair definition of these complex materials using plain language and accessibility semiotics for non-specialised audiences. For example: if the material is not 100% bio-based, the actual percentage has to be prefixed (eg, “30% bio-based plastic”).
+            Preferable futures investigates how design thinking and making can be used as an intervention tool to provide radical product design solutions. Using this PPPP framework, of what's probable, plausible, possible and preferable, design can speculate future usage and product development that encompasses the systematic and innovative process of creating something exceptional that exceeds customer expectations. It involves meticulous research, robust design, efficient prototyping, rigorous testing, and continuous improvement.<br></br><br></br>The program also responds to consumers and retail brands in clarifying what is bio-based, biodegradable, and recycled plastic material. Specifically, to mitigate this ambiguity to achieve a consensual and fair definition of these complex materials using plain language and accessibility semiotics for non-specialised audiences. For example: if the material is not 100% bio-based, the actual percentage has to be prefixed (eg, “30% bio-based plastic”).
             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain8.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/pppp.svg`}
               alt="Carbon illustration"
             />
+            <p className="landing-page__ftnt"> Adapted from: Dunne, A. and Raby, F. (2014) Speculative everything: Design, fiction, and Social Dreaming. S.l.: MIT Press. </p>
           </Column>
         </Grid>
       </TabPanel>
