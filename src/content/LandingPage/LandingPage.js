@@ -20,10 +20,14 @@ const LandingPage = () => {
     <Grid className="landing-page" fullWidth>
       <Column lg={16} md={8} sm={4} className="landing-page__banner">
       <Breadcrumb noTrailingSlash aria-label="Page navigation">
-
-  </Breadcrumb>
+</Breadcrumb>
   <h1 className="landing-page__heading">Innovate, design and manufacture with Materialtech Lab
-</h1>
+  </h1>
+  <img
+              className="landing-page__swooshy"
+              src={`${process.env.PUBLIC_URL}/assets/images/swooshy.png`}
+              alt="Carbon illustration"
+            />
       </Column>
       <Column lg={16} md={8} sm={4} className="landing-page__r2">
   <Tabs defaultSelectedIndex={0}>
