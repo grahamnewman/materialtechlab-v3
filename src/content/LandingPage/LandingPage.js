@@ -79,7 +79,6 @@ const LandingPage = () => {
             <h2 className="landing-page__subheading">Responding to customer and consumer demand</h2>
             <p className="landing-page__p">
             Society has become extremely efficient at producing and consuming plastic. Now it needs to become extremely efficient in reusing it with a second and third life. Plastic production currently contributes 7% of the total CO2 global pie. Research claims this will be 15% within 20 years with the growing population.<br></br><br></br>This research starts with clarifying the two types of bio-based and biodegradable plastics, and recycled plastics: one is meant to be biodegraded in a reasonable timeframe compatible with human life cycles. The other is meant to be recycled by which plastic waste is reprocessed into plastic technically very close to the conventional polymer. Both can get into the waste/recycling stream with other recycled content, and with virgin petroleum-based polymers. Even if these products don’t degrade for two to three years, it’s much better than 400 years from petroleum products.
-
             </p>
             <Button href="#/repos">Learn more</Button>
 
@@ -90,7 +89,6 @@ const LandingPage = () => {
               src={`${process.env.PUBLIC_URL}/assets/images/polymerchain5.png`}
               alt="Carbon illustration"
             />
-            <p className="landing-page__ftnt">Full descriptions of the plastics taxonomy can be found in the glossaries repo. Visualisation based on Shah, Manali & Rajhans, Sanjukta & Pandya, Himanshu & Mankad, Archana. (2021). Bioplastic for future: A review then and now. World Journal of Advanced Research and Reviews. 9. 056-067. 10.30574/wjarr.2021.9.2.0054.</p>
           </Column>
         </Grid>
       </TabPanel>
