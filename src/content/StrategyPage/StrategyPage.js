@@ -22,6 +22,11 @@ const ResearchPage = () => {
         
   </Breadcrumb>
   <h1 className="landing-page__heading">Strategy that delivers innovation design and engineering</h1>
+  <img
+              className="landing-page__swooshy"
+              src={`${process.env.PUBLIC_URL}/assets/images/swooshy.svg`}
+              alt="Carbon illustration"
+            />
       </Column>
       <Column lg={16} md={8} sm={4} className="landing-page__r2">
   <Tabs defaultSelectedIndex={0}>

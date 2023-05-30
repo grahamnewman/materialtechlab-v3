@@ -25,7 +25,7 @@ const LandingPage = () => {
   </h1>
   <img
               className="landing-page__swooshy"
-              src={`${process.env.PUBLIC_URL}/assets/images/swooshy.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/swooshy.svg`}
               alt="Carbon illustration"
             />
       </Column>
