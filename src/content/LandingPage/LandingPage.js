@@ -21,7 +21,7 @@ const LandingPage = () => {
       <Column lg={16} md={8} sm={4} className="landing-page__banner">
       <Breadcrumb noTrailingSlash aria-label="Page navigation">
 </Breadcrumb>
-  <h1 className="landing-page__heading">Innovate, design and manufacture with Materialtech Lab
+  <h1 className="landing-page__heading">Innovate, Design and Engineer with Materialtech Lab
   </h1>
   <img
               className="landing-page__swooshy"
@@ -44,7 +44,7 @@ const LandingPage = () => {
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
             <h2 className="landing-page__subheading">What is Materialtech Lab?</h2>
             <p className="landing-page__p">
-            Materialtech Lab is a design research facility that investigates the properties and potential applications of bio-based, biodegradable, and recycled plastics for manufacturing. Our mission is to reduce the use of virgin petroleum-based polymers in Fast Moving Consumer Goods (FMCG) packaging. This interdisciplinary approach to innovation merges design and science by developing polymeric materials entirely or partially produced from biomass resources that degrade in a reasonable timeframe. Materialtech Lab is curated by Graham Newman MRes RCA, FRSA.
+            Materialtech Lab is an Innovation Design Engineering (IDE) facility that investigates the properties and potential applications of bio-based, biodegradable, and recycled plastics for manufacturing. Our mission is to reduce the use of virgin petroleum-based polymers in Fast Moving Consumer Goods (FMCG) packaging. This interdisciplinary approach to innovation merges design and science by developing polymeric materials entirely or partially produced from biomass resources that degrade in a reasonable timeframe. Materialtech Lab is curated by Graham Newman MRes RCA, FRSA.
             </p>
             <Button href="#/repos">Learn more</Button>
 

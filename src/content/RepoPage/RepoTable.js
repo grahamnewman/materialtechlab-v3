@@ -33,7 +33,7 @@ const RepoTable = ({ rows, headers }) => {
         }) => (
           <TableContainer
             title="Materialtech Lab repositories"
-            description="A collection of public GitHub Materialtech Lab repositories."
+            description="A curated selection of public GitHub Innovation Design Engineering repositories."
           >
             <Table {...getTableProps()}>
               <TableHead>
