@@ -26,7 +26,7 @@ const PodcastPage = () => {
   <h1 className="landing-page__heading">Making + Doing podcast</h1>
   <img
               className="landing-page__swooshy"
-              src={`${process.env.PUBLIC_URL}/assets/images/swooshy2.svg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/swooshy3.svg`}
               alt="Carbon illustration"
             />
       </Column>

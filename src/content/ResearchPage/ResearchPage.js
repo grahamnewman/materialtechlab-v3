@@ -24,7 +24,7 @@ const ResearchPage = () => {
   <h1 className="landing-page__heading">Design research for individual, local and global purpose</h1>
   <img
               className="landing-page__swooshy"
-              src={`${process.env.PUBLIC_URL}/assets/images/swooshy2.svg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/swooshy3.svg`}
               alt="Carbon illustration"
             />
       </Column>
