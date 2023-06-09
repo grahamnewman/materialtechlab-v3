@@ -14,14 +14,14 @@ import {
   Column,
 } from '@carbon/react';
 
-const ResearchPage = () => {
+const CustomerPage = () => {
   return (
     <Grid className="landing-page" fullWidth>
       <Column lg={16} md={8} sm={4} className="landing-page__banner">
       <Breadcrumb noTrailingSlash aria-label="Page navigation">
         
   </Breadcrumb>
-  <h1 className="landing-page__heading">Design research for individual, local and global purpose</h1>
+  <h1 className="landing-page__heading">This is the customer experience page</h1>
   <img
               className="landing-page__swooshy"
               src={`${process.env.PUBLIC_URL}/assets/images/swooshy3.svg`}
@@ -116,4 +116,4 @@ const ResearchPage = () => {
   );
 };
 
-export default ResearchPage;
+export default CustomerPage;

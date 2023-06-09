@@ -31,10 +31,12 @@ const TutorialHeader = () => (
           Lab
         </HeaderName>
         <HeaderNavigation aria-label="Materialtech lab">
-        <HeaderMenuItem element={Link} to="research">Research</HeaderMenuItem> 
-        <HeaderMenuItem element={Link} to="strategy">Strategy</HeaderMenuItem>                           
+        <HeaderMenuItem element={Link} to="product">Product development</HeaderMenuItem> 
+        <HeaderMenuItem element={Link} to="customer">Customer experience</HeaderMenuItem> 
+        <HeaderMenuItem element={Link} to="strategy">Strategy</HeaderMenuItem>
+        <HeaderMenuItem element={Link} to="branding">Branding</HeaderMenuItem>                                                      
         <HeaderMenuItem element={Link} to="repos">Repositories</HeaderMenuItem> 
-        <HeaderMenuItem element={Link} to="podcast">Podcast</HeaderMenuItem> 
+
         </HeaderNavigation>
         <SideNav
           aria-label="Side navigation"
@@ -43,10 +45,11 @@ const TutorialHeader = () => (
         >
           <SideNavItems>
             <HeaderSideNavItems>
-              <HeaderMenuItem href="/#/research">Research</HeaderMenuItem>
+              <HeaderMenuItem href="/#/product">Product development</HeaderMenuItem>
+              <HeaderMenuItem href="/#/customer">Customer experience</HeaderMenuItem>
               <HeaderMenuItem href="/#/strategy">Strategy</HeaderMenuItem>
+              <HeaderMenuItem href="/#/branding">Branding</HeaderMenuItem>
               <HeaderMenuItem href="/#/repos">Repositories</HeaderMenuItem>
-              <HeaderMenuItem href="/#/podcast">Podcast</HeaderMenuItem>
             </HeaderSideNavItems>
           </SideNavItems>
         </SideNav>

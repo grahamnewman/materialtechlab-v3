@@ -4,10 +4,11 @@ import { Content, Theme } from '@carbon/react';
 import TutorialHeader from './components/TutorialHeader';
 import { Route, Switch } from 'react-router-dom';
 import LandingPage from './content/LandingPage';
-import ResearchPage from './content/ResearchPage';
+import ProductPage from './content/ProductPage';
+import CustomerPage from './content/CustomerPage';
 import StrategyPage from './content/StrategyPage';
+import BrandingPage from './content/BrandingPage';
 import RepoPage from './content/RepoPage';
-import PodcastPage from './content/PodcastPage';
 
 
 class App extends Component {
@@ -20,11 +21,11 @@ class App extends Component {
         <Content>
           <Switch>
             <Route exact path="/" component={LandingPage} />
-            <Route path="/research" component={ResearchPage} />
+            <Route path="/product" component={ProductPage} />
+            <Route path="/customer" component={CustomerPage} />
             <Route path="/strategy" component={StrategyPage} />
+            <Route path="/branding" component={BrandingPage} />
             <Route path="/repos" component={RepoPage} />
-            <Route path="/podcast" component={PodcastPage} />
-
           </Switch>
         </Content>
       </>

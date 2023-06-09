@@ -14,7 +14,7 @@ import {
   Column,
 } from '@carbon/react';
 
-const ResearchPage = () => {
+const StrategyPage = () => {
   return (
     <Grid className="landing-page" fullWidth>
       <Column lg={16} md={8} sm={4} className="landing-page__banner">
@@ -124,4 +124,4 @@ const ResearchPage = () => {
   );
 };
 
-export default ResearchPage;
+export default StrategyPage;
