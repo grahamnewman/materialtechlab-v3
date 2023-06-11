@@ -21,7 +21,7 @@ const CustomerPage = () => {
       <Breadcrumb noTrailingSlash aria-label="Page navigation">
         
   </Breadcrumb>
-  <h1 className="landing-page__heading">This is the customer experience page</h1>
+  <h1 className="landing-page__heading">Creating a deep sense of connection with brands</h1>
   <img
               className="landing-page__swooshy"
               src={`${process.env.PUBLIC_URL}/assets/images/swooshy3.svg`}
@@ -32,36 +32,36 @@ const CustomerPage = () => {
   <Tabs defaultSelectedIndex={0}>
   <Theme theme="g100">
     <TabList className="tabs-group" aria-label="Tab navigation" contained>
-      <Tab>Materials</Tab>
       <Tab>Customers</Tab>
-      <Tab>Products</Tab>
+      <Tab>Consumers</Tab>
+      <Tab>Tooling</Tab>
     </TabList>
     </Theme>
     <TabPanels>
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Bio-based, biodegradable and recycled plastic</h2>
+            <h2 className="landing-page__subheading">Responding to demand</h2>
             <p className="landing-page__p">
-            The huge retail brands of the world export their products to 190 countries. They now want 20-30% of recycled content material in their products. Additionally there is currently a 6m ton shortfall of recycled content annually. This research program investigates the plastics manufacturing and consumption ecosystem using design intervention methods to analyse alternative materials in the form of bio-based, biodegradable, and recycled materials. This feedstock material is produced from sustainable sources, eg, waste material such as  food, starch and vegetable fibres, and algae. 
+            Retail brands are looking more for products that are sustainable using recycled, bio-based and biodegradable plastics polymer content. There’s a 70-90% saving in manufacturing energy use on this bioplastic content portion mixed with virgin petroleum-based polymers. Hence there’s a carbon reduction and a huge pollution abatement. Additionally this research program investigates the triple bottom line of economic scale, environmental consequences, and social attitudes. Aligning these materials, processes and technologies to customer demand affords manufacturing companies to be fit for purpose in the long term. 
             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/plastics_taxonomy.svg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain2.png`}
               alt="Carbon illustration"
             />
-            <p className="landing-page__ftnt">Full descriptions of the plastics taxonomy can be found in the glossaries repo. Visualisation based on Shah, Manali & Rajhans, Sanjukta & Pandya, Himanshu & Mankad, Archana. (2021). Bioplastic for future: A review then and now. World Journal of Advanced Research and Reviews. 9. 056-067. 10.30574/wjarr.2021.9.2.0054.</p>
           </Column>
         </Grid>
       </TabPanel>
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Customer sentiment and inclination</h2>
+            <h2 className="landing-page__subheading">Sentiment and inclination</h2>
             <p className="landing-page__p">
-            Consumers and retail brands are looking more for products that are sustainable using recycled, bio-based and biodegradable plastics polymer content. There’s a 70-90% saving in manufacturing energy use on this bioplastic content portion mixed with virgin petroleum-based polymers. Hence there’s a carbon reduction and a huge pollution abatement. Additionally this research program investigates the triple bottom line of economic scale, environmental consequences, and social attitudes. Aligning these materials, processes and technologies to customer demand affords manufacturing companies to be fit for purpose in the long term.             </p>
+            Consumer sentiment is undergoing a remarkable shift, as sustainability concerns propel a growing inclination towards reducing plastic packaging. With increased awareness of environmental impact, consumers are seeking eco-friendly alternatives and demanding greater transparency from brands. This shift is driving product development towards innovative packaging solutions that prioritize recyclability, biodegradability, and minimal waste generation. Companies are embracing this change by investing in sustainable packaging technologies, responding to evolving consumer preferences, and cultivating a greener image while ensuring customer satisfaction.
+             </p>           
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
@@ -75,18 +75,17 @@ const CustomerPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Product design R&D</h2>
+            <h2 className="landing-page__subheading">Design thinking and market research</h2>
             <p className="landing-page__p">
-            Preferable futures investigates how design thinking and making can be used as an intervention tool to provide radical product design solutions. Using this PPPP framework, of what's probable, plausible, possible and preferable, design can speculate future usage and product development that encompasses the systematic and innovative process of creating something exceptional that exceeds customer expectations. It involves meticulous research, robust design, efficient prototyping, rigorous testing, and continuous improvement.<br></br><br></br>The program also responds to consumers and retail brands in clarifying what is bio-based, biodegradable, and recycled plastic material. Specifically, to mitigate this ambiguity to achieve a consensual and fair definition of these complex materials using plain language and accessibility semiotics for non-specialised audiences. For example: if the material is not 100% bio-based, the actual percentage has to be prefixed (eg, “30% bio-based plastic”).
+            Design thinking and market research are powerful tools in product development. Design thinking encourages an empathetic approach to understanding user needs and generating innovative solutions. It involves iterative cycles of ideation, prototyping, and testing to create user-centered designs. Market research complements design thinking by providing valuable insights into market trends, consumer preferences, and competitive landscapes. Together, they enable businesses to create products that not only meet customer demands but also align with market dynamics, resulting in successful and impactful product launches.
             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/pppp.svg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain6.png`}
               alt="Carbon illustration"
             />
-            <p className="landing-page__ftnt"> Adapted from: Dunne, A. and Raby, F. (2014) Speculative everything: Design, fiction, and Social Dreaming. S.l.: MIT Press. </p>
           </Column>
         </Grid>
       </TabPanel>

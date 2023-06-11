@@ -27,8 +27,8 @@ const TutorialHeader = () => (
           onClick={onClickSideNavExpand}
           isActive={isSideNavExpanded}
         />
-        <HeaderName element={Link} to="/" prefix="Materialtech">
-          Lab
+        <HeaderName element={Link} to="/" prefix="Materialtech Lab">
+          IDE
         </HeaderName>
         <HeaderNavigation aria-label="Materialtech lab">
         <HeaderMenuItem element={Link} to="product">Product development</HeaderMenuItem> 

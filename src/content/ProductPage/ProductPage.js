@@ -21,7 +21,7 @@ const ProductPage = () => {
       <Breadcrumb noTrailingSlash aria-label="Page navigation">
         
   </Breadcrumb>
-  <h1 className="landing-page__heading">This is the product development page</h1>
+  <h1 className="landing-page__heading">Revolutionising the future by unleashing innovation</h1>
   <img
               className="landing-page__swooshy"
               src={`${process.env.PUBLIC_URL}/assets/images/swooshy3.svg`}
@@ -32,8 +32,8 @@ const ProductPage = () => {
   <Tabs defaultSelectedIndex={0}>
   <Theme theme="g100">
     <TabList className="tabs-group" aria-label="Tab navigation" contained>
+      <Tab>Research</Tab>
       <Tab>Materials</Tab>
-      <Tab>Customers</Tab>
       <Tab>Products</Tab>
     </TabList>
     </Theme>
@@ -41,10 +41,26 @@ const ProductPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
+            <h2 className="landing-page__subheading">Where design, science and technology collide</h2>
+            <p className="landing-page__p">
+            Product development research is a critical process that involves gathering and analysing information to guide the creation and improvement of new products. It encompasses market analysis, competitor research, consumer surveys, and prototype testing. Effective research helps identify market needs, assess feasibility, and refine product features, leading to successful product launches and customer satisfaction.
+            </p>
+          </Column>
+          <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
+            <img
+              className="landing-page__illo"
+              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain4.png`}
+              alt="Carbon illustration"
+            />
+          </Column>
+        </Grid>
+      </TabPanel>
+      <TabPanel>
+        <Grid className="tabs-group-content">
+          <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
             <h2 className="landing-page__subheading">Bio-based, biodegradable and recycled plastic</h2>
             <p className="landing-page__p">
-            The huge retail brands of the world export their products to 190 countries. They now want 20-30% of recycled content material in their products. Additionally there is currently a 6m ton shortfall of recycled content annually. This research program investigates the plastics manufacturing and consumption ecosystem using design intervention methods to analyse alternative materials in the form of bio-based, biodegradable, and recycled materials. This feedstock material is produced from sustainable sources, eg, waste material such as  food, starch and vegetable fibres, and algae. 
-            </p>
+            The huge retail brands of the world export their products to 190 countries. They now want 20-30% of recycled content material in their products. Additionally there is currently a 6m ton shortfall of recycled content annually. This research program investigates the plastics manufacturing and consumption ecosystem using design intervention methods to analyse alternative materials in the form of bio-based, biodegradable, and recycled materials. This feedstock material is produced from sustainable sources, eg, waste material such as  food, starch and vegetable fibres, and algae.</p> 
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
@@ -59,23 +75,7 @@ const ProductPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Customer sentiment and inclination</h2>
-            <p className="landing-page__p">
-            Consumers and retail brands are looking more for products that are sustainable using recycled, bio-based and biodegradable plastics polymer content. There’s a 70-90% saving in manufacturing energy use on this bioplastic content portion mixed with virgin petroleum-based polymers. Hence there’s a carbon reduction and a huge pollution abatement. Additionally this research program investigates the triple bottom line of economic scale, environmental consequences, and social attitudes. Aligning these materials, processes and technologies to customer demand affords manufacturing companies to be fit for purpose in the long term.             </p>
-          </Column>
-          <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
-            <img
-              className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain3.png`}
-              alt="Carbon illustration"
-            />
-          </Column>
-        </Grid>
-      </TabPanel>
-      <TabPanel>
-        <Grid className="tabs-group-content">
-          <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Product design R&D</h2>
+            <h2 className="landing-page__subheading">Preferable futures for industry, consumers and the environment</h2>
             <p className="landing-page__p">
             Preferable futures investigates how design thinking and making can be used as an intervention tool to provide radical product design solutions. Using this PPPP framework, of what's probable, plausible, possible and preferable, design can speculate future usage and product development that encompasses the systematic and innovative process of creating something exceptional that exceeds customer expectations. It involves meticulous research, robust design, efficient prototyping, rigorous testing, and continuous improvement.<br></br><br></br>The program also responds to consumers and retail brands in clarifying what is bio-based, biodegradable, and recycled plastic material. Specifically, to mitigate this ambiguity to achieve a consensual and fair definition of these complex materials using plain language and accessibility semiotics for non-specialised audiences. For example: if the material is not 100% bio-based, the actual percentage has to be prefixed (eg, “30% bio-based plastic”).
             </p>

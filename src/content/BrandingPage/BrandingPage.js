@@ -21,7 +21,7 @@ const BrandingPage = () => {
       <Breadcrumb noTrailingSlash aria-label="Page navigation">
         
   </Breadcrumb>
-  <h1 className="landing-page__heading">This is the branding page</h1>
+  <h1 className="landing-page__heading">Create something remarkable</h1>
   <img
               className="landing-page__swooshy"
               src={`${process.env.PUBLIC_URL}/assets/images/swooshy3.svg`}
@@ -32,41 +32,24 @@ const BrandingPage = () => {
   <Tabs defaultSelectedIndex={0}>
   <Theme theme="g100">
     <TabList className="tabs-group" aria-label="Tab navigation" contained>
-      <Tab>Materials</Tab>
-      <Tab>Customers</Tab>
-      <Tab>Products</Tab>
+      <Tab>Identity</Tab>
+      <Tab>Packaging</Tab>
+      <Tab>Work</Tab>
     </TabList>
     </Theme>
     <TabPanels>
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Bio-based, biodegradable and recycled plastic</h2>
+            <h2 className="landing-page__subheading">Exceptional design transforms brands into icons</h2>
             <p className="landing-page__p">
-            The huge retail brands of the world export their products to 190 countries. They now want 20-30% of recycled content material in their products. Additionally there is currently a 6m ton shortfall of recycled content annually. This research program investigates the plastics manufacturing and consumption ecosystem using design intervention methods to analyse alternative materials in the form of bio-based, biodegradable, and recycled materials. This feedstock material is produced from sustainable sources, eg, waste material such as  food, starch and vegetable fibres, and algae. 
+            Remarkable identity design goes beyond creating a visually appealing logo; it encapsulates the essence of a brand and communicates its unique story. It involves careful consideration of color psychology, typography, and visual elements to evoke emotions and convey brand values. A remarkable identity design captures attention, creates recognition, and fosters a lasting connection with the target audience. It is a powerful tool that distinguishes a brand from its competitors, leaving a memorable impression and becoming a symbol of trust and credibility.
             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/plastics_taxonomy.svg`}
-              alt="Carbon illustration"
-            />
-            <p className="landing-page__ftnt">Full descriptions of the plastics taxonomy can be found in the glossaries repo. Visualisation based on Shah, Manali & Rajhans, Sanjukta & Pandya, Himanshu & Mankad, Archana. (2021). Bioplastic for future: A review then and now. World Journal of Advanced Research and Reviews. 9. 056-067. 10.30574/wjarr.2021.9.2.0054.</p>
-          </Column>
-        </Grid>
-      </TabPanel>
-      <TabPanel>
-        <Grid className="tabs-group-content">
-          <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Customer sentiment and inclination</h2>
-            <p className="landing-page__p">
-            Consumers and retail brands are looking more for products that are sustainable using recycled, bio-based and biodegradable plastics polymer content. There’s a 70-90% saving in manufacturing energy use on this bioplastic content portion mixed with virgin petroleum-based polymers. Hence there’s a carbon reduction and a huge pollution abatement. Additionally this research program investigates the triple bottom line of economic scale, environmental consequences, and social attitudes. Aligning these materials, processes and technologies to customer demand affords manufacturing companies to be fit for purpose in the long term.             </p>
-          </Column>
-          <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
-            <img
-              className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain3.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain8.png`}
               alt="Carbon illustration"
             />
           </Column>
@@ -75,18 +58,33 @@ const BrandingPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Product design R&D</h2>
+            <h2 className="landing-page__subheading">The art of captivating consumers</h2>
             <p className="landing-page__p">
-            Preferable futures investigates how design thinking and making can be used as an intervention tool to provide radical product design solutions. Using this PPPP framework, of what's probable, plausible, possible and preferable, design can speculate future usage and product development that encompasses the systematic and innovative process of creating something exceptional that exceeds customer expectations. It involves meticulous research, robust design, efficient prototyping, rigorous testing, and continuous improvement.<br></br><br></br>The program also responds to consumers and retail brands in clarifying what is bio-based, biodegradable, and recycled plastic material. Specifically, to mitigate this ambiguity to achieve a consensual and fair definition of these complex materials using plain language and accessibility semiotics for non-specialised audiences. For example: if the material is not 100% bio-based, the actual percentage has to be prefixed (eg, “30% bio-based plastic”).
-            </p>
+            Incredible packaging design transcends the mere functionality of containing a product; it becomes a visual and tactile experience that captivates consumers. It combines artistic flair, strategic thinking, and practicality to create a cohesive and memorable package. From stunning graphics to innovative structural designs, incredible packaging stands out on the shelves, enticing customers and leaving a lasting impression. It not only protects the product but also tells a story, evokes emotions, and reinforces brand identity, making it an essential element in successful marketing and brand building.
+          </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/pppp.svg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain7.png`}
               alt="Carbon illustration"
             />
-            <p className="landing-page__ftnt"> Adapted from: Dunne, A. and Raby, F. (2014) Speculative everything: Design, fiction, and Social Dreaming. S.l.: MIT Press. </p>
+          </Column>
+        </Grid>
+      </TabPanel>
+      <TabPanel>
+        <Grid className="tabs-group-content">
+          <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
+            <h2 className="landing-page__subheading">The Materialtech Lab trustmark</h2>
+            <p className="landing-page__p">
+            An innovation funnel. A divergent design process of ideation. The Why, the How, and the What. A Helix. A fundamental shape found in various biological molecules. A megaphone. Serving as a way for an organisation to articulate what it believes. To rally the community. Progression from cool to warm hues. Forging cold to searing hot mettle.            </p>
+          </Column>
+          <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
+            <img
+              className="landing-page__illo"
+              src={`${process.env.PUBLIC_URL}/assets/images/swooshy_anatomy.svg`}
+              alt="Carbon illustration"
+            />
           </Column>
         </Grid>
       </TabPanel>
