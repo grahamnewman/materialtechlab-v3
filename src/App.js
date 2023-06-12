@@ -3,6 +3,7 @@ import './app.scss';
 import { Content, Theme } from '@carbon/react';
 import TutorialHeader from './components/TutorialHeader';
 import { Route, Switch } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import LandingPage from './content/LandingPage';
 import ProductPage from './content/ProductPage';
 import CustomerPage from './content/CustomerPage';
@@ -15,6 +16,14 @@ class App extends Component {
   render() {
     return (
       <>
+          <Helmet>
+            <title>Materialtech Lab</title>
+            <meta 
+              name="description"
+              content="Innovation Design Engineering that transforms the world. Bangkok | Singapore"
+            />
+            <link rel="canonical" href="https://materialtechlab.com/#/"/>
+          </Helmet> 
       <Theme theme="g100">
         <TutorialHeader />
       </Theme>

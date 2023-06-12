@@ -14,7 +14,6 @@ import {
   Theme,
 } from '@carbon/react';
 
-
 const LandingPage = () => {
   return (
     <Grid className="landing-page" fullWidth>
