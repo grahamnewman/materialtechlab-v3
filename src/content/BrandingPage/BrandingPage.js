@@ -21,7 +21,7 @@ const BrandingPage = () => {
       <Breadcrumb noTrailingSlash aria-label="Page navigation">
         
   </Breadcrumb>
-  <h1 className="landing-page__heading">Create something remarkable</h1>
+  <h1 className="landing-page__heading">Creating remarkable experiences that captivate hearts and minds</h1>
   <img
               className="landing-page__swooshy"
               src={`${process.env.PUBLIC_URL}/assets/images/swooshy3.svg`}

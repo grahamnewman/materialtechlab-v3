@@ -17,10 +17,10 @@ class App extends Component {
     return (
       <>
           <Helmet>
-            <title>Materialtech Lab</title>
+            <title>Materialtech Lab | Innovation Design Engineering</title>
             <meta 
               name="description"
-              content="Innovation Design Engineering that transforms the world. Bangkok | Singapore"
+              content="Helping clients create impact with interdisciplinary design, science, engineering and technology using bioplastics and recycled materials."
             />
             <link rel="canonical" href="https://materialtechlab.com/#/"/>
           </Helmet> 

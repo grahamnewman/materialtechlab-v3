@@ -1,6 +1,7 @@
 import React from 'react';
 import { InfoSection, InfoCard } from '../../components/Info';
 import { Friendship, Idea, Sprout } from '@carbon/react/icons';
+import { Helmet } from 'react-helmet';
 import {
   Breadcrumb,
   Button,
@@ -13,6 +14,16 @@ import {
   Column,
   Theme,
 } from '@carbon/react';
+
+
+<Helmet>
+  <title>Innovation Design Engineering | Materialtech Lab</title>
+  <meta 
+    name="description"
+    content="Helping clients create impact with interdisciplinary design, science, engineering and technology using bioplastics and recycled materials."
+  />
+  <link rel="canonical" href="https://materialtechlab.com/#/"/>
+</Helmet> 
 
 const LandingPage = () => {
   return (

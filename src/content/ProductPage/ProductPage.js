@@ -21,7 +21,7 @@ const ProductPage = () => {
       <Breadcrumb noTrailingSlash aria-label="Page navigation">
         
   </Breadcrumb>
-  <h1 className="landing-page__heading">Revolutionising the future by unleashing innovation</h1>
+  <h1 className="landing-page__heading">Innovation using advanced design and engineering research</h1>
   <img
               className="landing-page__swooshy"
               src={`${process.env.PUBLIC_URL}/assets/images/swooshy3.svg`}
