@@ -62,7 +62,7 @@ const LandingPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain9.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/ai/01.jpg`}
               alt="Carbon illustration"
             />
           </Column>
@@ -100,7 +100,7 @@ const LandingPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain5.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/ai/03.jpg`}
               alt="Carbon illustration"
             />
           </Column>

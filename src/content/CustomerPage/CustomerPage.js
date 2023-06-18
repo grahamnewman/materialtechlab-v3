@@ -84,7 +84,7 @@ const CustomerPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain6.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/ai/04.jpg`}
               alt="Carbon illustration"
             />
           </Column>
