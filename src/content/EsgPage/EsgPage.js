@@ -14,14 +14,14 @@ import {
   Column,
 } from '@carbon/react';
 
-const CustomerPage = () => {
+const EsgPage = () => {
   return (
     <Grid className="landing-page" fullWidth>
       <Column lg={16} md={8} sm={4} className="landing-page__banner">
       <Breadcrumb noTrailingSlash aria-label="Page navigation">
         
   </Breadcrumb>
-  <h1 className="landing-page__heading">Research insights and analysis to empower change-seeking customers</h1>
+  <h1 className="landing-page__heading">Innovation driving a sustainable and responsible future</h1>
   <img
               className="landing-page__swooshy"
               src={`${process.env.PUBLIC_URL}/assets/images/swooshy3.svg`}
@@ -32,24 +32,24 @@ const CustomerPage = () => {
   <Tabs defaultSelectedIndex={0}>
   <Theme theme="g100">
     <TabList className="tabs-group" aria-label="Tab navigation" contained>
-      <Tab>Customers</Tab>
-      <Tab>Consumers</Tab>
-      <Tab>Tooling</Tab>
+      <Tab>Environment</Tab>
+      <Tab>Social</Tab>
+      <Tab>Governance</Tab>
     </TabList>
     </Theme>
     <TabPanels>
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Responding to demand</h2>
+            <h2 className="landing-page__subheading">Bioplastic: ESG's environmental hero for sustainable packaging solutions</h2>
             <p className="landing-page__p">
-            Retail brands are looking more for products that are sustainable using recycled, bio-based and biodegradable plastics polymer content. There’s a 70-90% saving in manufacturing energy use on this bioplastic content portion mixed with virgin petroleum-based polymers. Hence there’s a carbon reduction and a huge pollution abatement. Additionally this research program investigates the triple bottom line of economic scale, environmental consequences, and social attitudes. Aligning these materials, processes and technologies to customer demand affords manufacturing companies to be fit for purpose in the long term. High risk, low data buying decisions. 
+            The environmental aspect of ESG (Environmental, Social, and Governance) plays a crucial role in promoting bioplastics as a sustainable alternative to traditional plastics. Bioplastics, derived from renewable resources like plant starch or agricultural waste, reduce reliance on fossil fuels and emit fewer greenhouse gases during production. They also have the potential for biodegradability and compostability, minimizing environmental pollution. ESG frameworks encourage companies to adopt bioplastics, fostering responsible resource management and waste reduction. By prioritizing the environment within their ESG strategies, businesses can contribute to a healthier planet by embracing bioplastics as a key component of their sustainable packaging solutions.
             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/innovation_diffusion.svg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain4.png`}
               alt="Carbon illustration"
             />
           </Column>
@@ -58,27 +58,27 @@ const CustomerPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Sentiment and inclination</h2>
+            <h2 className="landing-page__subheading">Impact for sustainable community development
+            </h2>
             <p className="landing-page__p">
-            Consumer sentiment is undergoing a remarkable shift, as sustainability concerns propel a growing inclination towards reducing plastic packaging. With increased awareness of environmental impact, consumers are seeking eco-friendly alternatives and demanding greater transparency from brands. This shift is driving product development towards innovative packaging solutions that prioritize recyclability, biodegradability, and minimal waste generation. Companies are embracing this change by investing in sustainable packaging technologies, responding to evolving consumer preferences, and cultivating a greener image while ensuring customer satisfaction. Low risk, high data buying decisions.
-             </p>           
+            The social aspect of ESG in the context of bioplastics focuses on the positive impact on communities and stakeholders. Bioplastics offer social benefits by supporting local farmers and promoting rural development through the cultivation of renewable resources. Additionally, the adoption of bioplastics encourages job creation in the green economy, fostering employment opportunities in sustainable industries. ESG-driven companies prioritize the social well-being of their communities by incorporating bioplastics into their operations, contributing to inclusive growth, and enhancing social cohesion through environmentally friendly practices.
+          </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/4_gears.svg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/polymerchain2.png`}
               alt="Carbon illustration"
             />
-            <p className="landing-page__ftnt">Based on Moore, G.A. (2014) Crossing the chasm: Marketing and selling high-tech products to mainstream customers. New York, NY: HarperBusiness Essentials.</p>
           </Column>
         </Grid>
       </TabPanel>
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Design thinking and market research</h2>
+            <h2 className="landing-page__subheading">Driving sustainable accountability and trust</h2>
             <p className="landing-page__p">
-            Design thinking and market research are powerful tools in product development. Design thinking encourages an empathetic approach to understanding user needs and generating innovative solutions. It involves iterative cycles of ideation, prototyping, and testing to create user-centered designs. Market research complements design thinking by providing valuable insights into market trends, consumer preferences, and competitive landscapes. Together, they enable businesses to create products that not only meet customer demands but also align with market dynamics, resulting in successful and impactful product launches.
+            The governance aspect of ESG in relation to bioplastics revolves around responsible and transparent management practices. Adopting bioplastics requires effective governance structures to ensure compliance with environmental regulations, ethical sourcing of raw materials, and proper waste management throughout the value chain. By integrating robust governance frameworks, companies can mitigate risks associated with the production and use of bioplastics, ensure accountability, and uphold ethical standards. ESG-oriented governance practices enable businesses to demonstrate their commitment to sustainability and ethical practices while fostering trust among stakeholders in the bioplastics industry.
             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
@@ -116,4 +116,4 @@ const CustomerPage = () => {
   );
 };
 
-export default CustomerPage;
+export default EsgPage;

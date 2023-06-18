@@ -77,7 +77,7 @@ const BrandingPage = () => {
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
             <h2 className="landing-page__subheading">The Materialtech Lab trustmark</h2>
             <p className="landing-page__p">
-            An innovation funnel. A divergent design process of ideation. The Why, the How, and the What. A Helix. A fundamental shape found in various biological molecules. A megaphone. Serving as a way for an organisation to articulate what it believes. To rally the community. Progression from cool to warm hues. Forging cold to searing hot mettle.            </p>
+            An innovation funnel. A divergent design process of ideation. The Why, the How, and the What. A Helix. A fundamental shape found in various biological molecules. An Archimedes screw. A megaphone. Serving as a way for an organisation to articulate what it believes. To rally the community. Progression from cool to warm hues. Forging cold to searing hot mettle.            </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img

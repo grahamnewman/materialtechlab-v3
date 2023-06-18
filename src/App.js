@@ -9,6 +9,7 @@ import ProductPage from './content/ProductPage';
 import CustomerPage from './content/CustomerPage';
 import StrategyPage from './content/StrategyPage';
 import BrandingPage from './content/BrandingPage';
+import EsgPage from './content/EsgPage';
 import RepoPage from './content/RepoPage';
 
 
@@ -34,6 +35,7 @@ class App extends Component {
             <Route path="/customer" component={CustomerPage} />
             <Route path="/strategy" component={StrategyPage} />
             <Route path="/branding" component={BrandingPage} />
+            <Route path="/esg" component={EsgPage} />
             <Route path="/repos" component={RepoPage} />
           </Switch>
         </Content>

@@ -34,8 +34,10 @@ const TutorialHeader = () => (
         <HeaderMenuItem element={Link} to="product">Product development</HeaderMenuItem> 
         <HeaderMenuItem element={Link} to="customer">Customer experience</HeaderMenuItem> 
         <HeaderMenuItem element={Link} to="strategy">Strategy</HeaderMenuItem>
-        <HeaderMenuItem element={Link} to="branding">Branding</HeaderMenuItem>                                                      
-        <HeaderMenuItem element={Link} to="repos">Repositories</HeaderMenuItem> 
+        <HeaderMenuItem element={Link} to="branding">Branding</HeaderMenuItem>
+        <HeaderMenuItem element={Link} to="esg">ESG</HeaderMenuItem> 
+        <HeaderMenuItem element={Link} to="repos">Repositories</HeaderMenuItem>
+ 
 
         </HeaderNavigation>
         <SideNav
@@ -49,6 +51,7 @@ const TutorialHeader = () => (
               <HeaderMenuItem href="/#/customer">Customer experience</HeaderMenuItem>
               <HeaderMenuItem href="/#/strategy">Strategy</HeaderMenuItem>
               <HeaderMenuItem href="/#/branding">Branding</HeaderMenuItem>
+              <HeaderMenuItem href="/#/esg">ESG</HeaderMenuItem>
               <HeaderMenuItem href="/#/repos">Repositories</HeaderMenuItem>
             </HeaderSideNavItems>
           </SideNavItems>
