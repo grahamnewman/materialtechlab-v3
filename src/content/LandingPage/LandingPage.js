@@ -81,7 +81,7 @@ const LandingPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/innovation_diffusion.svg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/innovation_diffusion2.svg`}
               alt="Carbon illustration"
             />
           </Column>
