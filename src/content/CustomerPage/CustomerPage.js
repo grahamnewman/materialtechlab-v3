@@ -52,6 +52,7 @@ const CustomerPage = () => {
               src={`${process.env.PUBLIC_URL}/assets/images/innovation_diffusion2.svg`}
               alt="Carbon illustration"
             />
+            <p className="landing-page__ftnt">Based on Moore, G.A. (2014) Crossing the Chasm: Marketing and selling high-tech products to mainstream customers. New York, NY: HarperBusiness Essentials.</p>
           </Column>
         </Grid>
       </TabPanel>
@@ -69,7 +70,7 @@ const CustomerPage = () => {
               src={`${process.env.PUBLIC_URL}/assets/images/4_gears.svg`}
               alt="Carbon illustration"
             />
-            <p className="landing-page__ftnt">Based on Moore, G.A. (2014) Crossing the chasm: Marketing and selling high-tech products to mainstream customers. New York, NY: HarperBusiness Essentials.</p>
+            <p className="landing-page__ftnt">Based on Moore, G.A. (2014) Crossing the Chasm: Marketing and selling high-tech products to mainstream customers. New York, NY: HarperBusiness Essentials.</p>
           </Column>
         </Grid>
       </TabPanel>

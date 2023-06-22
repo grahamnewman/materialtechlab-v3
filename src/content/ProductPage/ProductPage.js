@@ -41,7 +41,7 @@ const ProductPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Where design, science and technology collide</h2>
+            <h2 className="landing-page__subheading">Where design, science and technology create value</h2>
             <p className="landing-page__p">
             Product development research is a critical process that involves gathering and analysing information to guide the creation and improvement of new products. It encompasses market analysis, competitor research, consumer surveys, and prototype testing. Effective research helps identify market needs, assess feasibility, and refine product features, leading to successful product launches and customer satisfaction.
             </p>
@@ -49,9 +49,11 @@ const ProductPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/ai/02.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/agile_dd.svg`}
               alt="Carbon illustration"
             />
+            <p className="landing-page__ftnt">Based on Design Council (2003) Double Diamond, and Ulrich, K.T., Eppinger, S.D. and Yang, M.C. (2020) Product design and development. 7th edition. New York, NY: McGraw-Hill Education. 
+          </p>
           </Column>
         </Grid>
       </TabPanel>
