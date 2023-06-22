@@ -49,7 +49,7 @@ const ProductPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/agile_dd.svg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/agile_dd2.svg`}
               alt="Carbon illustration"
             />
             <p className="landing-page__ftnt">Based on Design Council (2003) Double Diamond, and Ulrich, K.T., Eppinger, S.D. and Yang, M.C. (2020) Product design and development. 7th edition. New York, NY: McGraw-Hill Education. 
