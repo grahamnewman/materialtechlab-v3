@@ -12,6 +12,8 @@ import {
   TabPanel,
   Grid,
   Column,
+  ListItem,
+  UnorderedList,
 } from '@carbon/react';
 
 const ProductPage = () => {
@@ -49,7 +51,7 @@ const ProductPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/agile_dd4.svg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/agile_dd5.svg`}
               alt="Carbon illustration"
             />
             <p className="landing-page__ftnt">Based on Design Council (2003) Double Diamond, and Ulrich, K.T., Eppinger, S.D. and Yang, M.C. (2020) Product design and development. 7th edition. New York, NY: McGraw-Hill Education. 
@@ -113,6 +115,12 @@ const ProductPage = () => {
     icon={() => <Sprout size={32} />}
   />
 </InfoSection>
+</Column>
+<Column lg={16} md={8} sm={4} className="landing-page__r3">
+  <UnorderedList>
+    <ListItem><a href="https://www.instagram.com/materialtechlab/">Instagram</a></ListItem>
+    <ListItem><font color="#f4f4f4"> Copyright © 2023 Materialtech Lab </font></ListItem>
+  </UnorderedList>
 </Column>
     </Grid>
   );

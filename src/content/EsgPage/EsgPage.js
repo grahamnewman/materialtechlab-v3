@@ -12,6 +12,8 @@ import {
   TabPanel,
   Grid,
   Column,
+  ListItem,
+  UnorderedList,
 } from '@carbon/react';
 
 const EsgPage = () => {
@@ -111,6 +113,12 @@ const EsgPage = () => {
     icon={() => <Sprout size={32} />}
   />
 </InfoSection>
+</Column>
+<Column lg={16} md={8} sm={4} className="landing-page__r3">
+  <UnorderedList>
+    <ListItem><a href="https://www.instagram.com/materialtechlab/">Instagram</a></ListItem>
+    <ListItem><font color="#f4f4f4"> Copyright © 2023 Materialtech Lab </font></ListItem>
+  </UnorderedList>
 </Column>
     </Grid>
   );

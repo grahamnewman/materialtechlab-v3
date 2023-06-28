@@ -72,11 +72,17 @@
   }
 }
 
-.landing-page__r3 {
-  padding-top: $spacing-09;
-  padding-bottom: $spacing-09;
-  padding-left: $spacing-06;
-  @include landing-page-background;
+// .landing-page__r3 {
+//   padding-top: $spacing-09;
+//   padding-bottom: $spacing-09;
+//   padding-left: $spacing-06;
+//   @include landing-page-background;
+// }
+
+.landing-page__r3 a {
+  color: #f4f4f4!important;
+  text-decoration: none;
+
 }
 
 .landing-page__label {
@@ -106,5 +112,3 @@
 .landing-page__italic {
   @include type-style('helper-text-01');
 }
-
-
