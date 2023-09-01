@@ -69,7 +69,7 @@ const CustomerPage = () => {
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/4_gears.svg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/4_gears2.svg`}
               alt="Carbon illustration"
             />
             <p className="landing-page__ftnt">Based on Moore, G.A. (2014) Crossing the Chasm: Marketing and selling high-tech products to mainstream customers. New York, NY: HarperBusiness Essentials.</p>

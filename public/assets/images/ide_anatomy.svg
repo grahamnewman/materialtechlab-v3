@@ -1,0 +1,14 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="900" fill="#262626"/>
+<line x1="180.5" y1="64" x2="180.5" y2="832" stroke="#CFCFCF"/>
+<line x1="555.5" y1="64" x2="555.5" y2="832" stroke="#CFCFCF"/>
+<line x1="369.5" y1="64" x2="369.5" y2="832" stroke="#CFCFCF"/>
+<line x1="741.5" y1="64" x2="741.5" y2="832" stroke="#CFCFCF"/>
+<line x1="944.5" y1="64" x2="944.5" y2="832" stroke="#CFCFCF"/>
+<line x1="178" y1="829.5" x2="946" y2="829.5" stroke="#CFCFCF"/>
+<line x1="178" y1="447.5" x2="946" y2="447.5" stroke="#CFCFCF"/>
+<line x1="178" y1="640.5" x2="946" y2="640.5" stroke="#CFCFCF"/>
+<line x1="178" y1="268.5" x2="946" y2="268.5" stroke="#CFCFCF"/>
+<line x1="178" y1="65.5" x2="946" y2="65.5" stroke="#CFCFCF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M530.995 64H212V594.226L398.703 594.226L437.11 594.226V830H672.89V594.226L711.297 594.226L898 594.226V64H579.005V344.582H530.995V64ZM462.715 185.621H423.241V279.504H462.715V185.621ZM647.285 185.621H686.759V279.504H647.285V185.621ZM655.82 400.059H457.381V455.535H655.82V400.059Z" fill="#3C78D8"/>
+</svg>

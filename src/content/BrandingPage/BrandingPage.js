@@ -79,7 +79,10 @@ const BrandingPage = () => {
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
             <h2 className="landing-page__subheading">The Materialtech Lab trustmark</h2>
             <p className="landing-page__p">
-            An innovation funnel. A divergent design process of ideation. The Why, the How, and the What. A Helix. A fundamental shape found in various biological molecules. An Archimedes screw. A megaphone. Serving as a way for an organisation to articulate what it believes. To rally the community. Progression from cool to warm hues. Forging cold to searing hot mettle.            </p>
+            An innovation funnel. A divergent design process of ideation. The Why, the How, and the What. A Helix. A fundamental shape found in various biological molecules. An Archimedes screw. A megaphone. Serving as a way for an organisation to articulate what it believes. To rally the community. Progression from cool to warm hues. Forging cold to searing hot mettle.</p>
+            <h2 className="landing-page__subheading">The IDE identity–material as culture x material as structure</h2>
+            <p className="landing-page__p">
+            The intersection of material as culture and material as the matter from which a thing is or can be made represents a pivotal nexus in contemporary innovation design engineering. This conceptual juncture encapsulates the dynamic interplay between tangible substances and the cultural, symbolic, and socio-economic values ascribed to them. Material culture studies examine how objects, materials, and artifacts convey meaning and facilitate cultural expression. Simultaneously, materials' physical properties and their transformation through technology underscore their pivotal role in shaping human existence. This interdisciplinary intersection underscores the reciprocal relationship between society and materiality, with materials both reflecting and shaping cultural norms, identities, and ideologies. Understanding this intersection offers profound insights into the complex web of human-material interactions, providing a rich terrain for further design exploration.</p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
@@ -87,6 +90,15 @@ const BrandingPage = () => {
               src={`${process.env.PUBLIC_URL}/assets/images/swooshy_anatomy.svg`}
               alt="Carbon illustration"
             />
+          <p className="landing-page__ftnt">Materialtech Lab trustmark</p>
+          </Column>
+          <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
+            <img
+              className="landing-page__illo"
+              src={`${process.env.PUBLIC_URL}/assets/images/ide_anatomy.svg`}
+              alt="Carbon illustration"
+            />
+            <p className="landing-page__ftnt">IDE identity</p>
           </Column>
         </Grid>
       </TabPanel>
