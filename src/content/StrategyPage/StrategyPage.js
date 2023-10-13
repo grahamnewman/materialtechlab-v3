@@ -37,7 +37,7 @@ const StrategyPage = () => {
     <TabList className="tabs-group" aria-label="Tab navigation" contained>
       <Tab>Roadmap</Tab>
       <Tab>Metrics</Tab>
-      <Tab>Patents</Tab>
+      <Tab>E-commerce</Tab>
     </TabList>
     </Theme>
     <TabPanels>
@@ -85,19 +85,18 @@ const StrategyPage = () => {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h2 className="landing-page__subheading">Bio-based and biodegradable polymer blend patent filing</h2>
+            <h2 className="landing-page__subheading">Building a digital first brand for China consumption</h2>
             <p className="landing-page__p">
-            The patent filing trend for bio-based and biodegradable polymer blends indicates a growing interest in sustainable materials outside of Covid-19’s impact. Researchers and manufacturers are increasingly focusing on developing innovative blends that combine bio-based polymers with biodegradable additives. This trend reflects the rising demand for eco-friendly alternatives to conventional plastics. Looking ahead, the forecast suggests a continued upward trajectory in patent filings for these polymer blends. The trend aligns with the global push for more sustainable solutions in various industries, such as packaging, textiles, and biomedical applications, where bio-based and biodegradable polymer blends offer significant environmental benefits.
-            <br></br><br></br>There are four factors that may slow down patent applications. Market maturity: the bio-based and biodegradable polymer blend market may have reached a certain level of maturity, resulting in a saturation of patentable innovations. As the field evolves, companies may focus more on product development and commercialisation rather than filing new patents. Technology stabilisation: the technology and processes related to bio-based and biodegradable polymer blends might have become more stable and well-established. This could lead to fewer breakthrough innovations and therefore a decline in patent filings. Patent portfolio consolidation: leading companies may have already built substantial patent portfolios in the past, and their focus might have shifted towards optimising and consolidating existing intellectual property rather than pursuing new patent filings. Regulatory environment: changes in regulations or policies related to bio-based and biodegradable plastic material could have influenced the patent landscape. Shifts in governmental policies may impact the incentives for companies to file patents in this area.
+            In China's bustling e-commerce ecosystem, FMCG (Fast-Moving Consumer Goods) brands are riding the digital wave to unprecedented heights. The country's tech-savvy consumers, armed with smartphones and high-speed internet, are driving a paradigm shift in shopping habits. E-commerce giants like Alibaba's Tmall and JD.com dominate the landscape, offering FMCG brands vast online marketplaces to showcase products. These platforms leverage cutting-edge technologies, from AI-driven recommendation engines to seamless payment gateways, enhancing user experience. Moreover, live streaming and social commerce have merged, allowing FMCG brands to engage directly with consumers, forging authentic connections and driving sales. The ecosystem's efficiency and reach have transformed traditional retail models, enabling FMCG brands to thrive in the world's largest digital marketplace. Here's how to do it.
             </p>
           </Column>
           <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
             <img
               className="landing-page__illo"
-              src={`${process.env.PUBLIC_URL}/assets/images/patent_filing.svg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/e-commerce_growth_stack.svg`}
               alt="Carbon illustration"
             />
-            <p className="landing-page__ftnt">Top ten bioplastics patent filers by priority filings within the last 10 years. Adapted from: Appleyard Lees. (2021). Inside Green Innovation: Progress Report 2021. Available at: https://appleyardlees.foleon.com/igipr/inside-green-innovation-progress-report-2021/3-bioplastics/ (Accessed: 25 May 2023). </p>
+            <p className="landing-page__ftnt"> Adapted from: Campbell, K. (2023) E-commerce growth strategy: A brand-driven approach to attract shoppers, build community and retain customers. London: KoganPage. </p>
           </Column>
         </Grid>
       </TabPanel>
